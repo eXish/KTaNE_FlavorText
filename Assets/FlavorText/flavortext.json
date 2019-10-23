@@ -1274,13 +1274,13 @@
   {
     "name": "Greek Calculus",
     "steam_id": 1398997901,
-    "module_id": "greenArrowsModule",
+    "module_id": "greekCalculus",
     "text": "The bomb makers are clever. Either the bomb explodes, or they get the answers to their calculus problems. Make your choice. Also, they like Greek letters. Good luck!"
   },
   {
     "name": "Green Arrows",
     "steam_id": 1757173794,
-    "module_id": "greekCalculus",
+    "module_id": "greenArrowsModule",
     "text": "What's the point?"
   },
   {
@@ -3171,7 +3171,7 @@
     "name": "Vigenere Cipher",
     "steam_id": 1809303027,
     "module_id": "vigenereCipher",
-    "text": "For every flag you make that does not exist, think of a new country name. Good waste of time while defusing a bomb."
+    "text": "Julius Caesar's little brother...by about 1600 years..."
   },
   {
     "name": "Visual Impairment",
