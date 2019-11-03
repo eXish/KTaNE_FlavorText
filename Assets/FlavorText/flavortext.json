@@ -258,6 +258,12 @@
     "text": "Ground control to Major Tom, do you read?"
   },
   {
+    "name": "Black Cipher",
+    "steam_id": 1898565372,
+    "module_id": "blackCipher",
+    "text": "Black as the world it came from, this cipher will be the end of you."
+  },
+  {
     "name": "Blackjack",
     "steam_id": 1541425240,
     "module_id": "KritBlackjack",
@@ -510,6 +516,12 @@
     "text": "Under pressure, chess can feel more like a game of battleships."
   },
   {
+    "name": "Chinese Counting",
+    "steam_id": 1886794936,
+    "module_id": "chineseCounting",
+    "text": "Do you buy your china in China?"
+  },
+  {
     "name": "Chord Progressions",
     "steam_id": 1838172595,
     "module_id": "chordProgressions",
@@ -552,6 +564,12 @@
     "text": "These millennials make some weird caffeinated combinations. On the plus side, this company pays its taxes..."
   },
   {
+    "name": "Color Addition",
+    "steam_id": 1887510099,
+    "module_id": "colorAddition",
+    "text": "This is a diagram showing the colors that will appear on the module. Wait, is this the flavor text?"
+  },
+  {
     "name": "Color Decoding",
     "steam_id": 1355440777,
     "module_id": "Color Decoding",
@@ -562,6 +580,12 @@
     "steam_id": 1673910132,
     "module_id": "lgndColoredKeys",
     "text": "Who painted this keypad?"
+  },
+  {
+    "name": "The Colored Maze",
+    "steam_id": 1894958987,
+    "module_id": "coloredMaze",
+    "text": "Probably don’t print this in black and white..."
   },
   {
     "name": "Colored Squares",
@@ -930,6 +954,12 @@
     "text": "You would think that the ports on the side of the bomb are used for something other than just for answering questions..."
   },
   {
+    "name": "Eight Pages",
+    "steam_id": 1894619452,
+    "module_id": "lgndEightPages",
+    "text": "\"He watches you yet has no sight. He taketh you away at night.\""
+  },
+  {
     "name": "Elder Futhark",
     "steam_id": 1649318054,
     "module_id": "elderFuthark",
@@ -958,6 +988,12 @@
     "steam_id": 1758398098,
     "module_id": "EncryptedValuesModule",
     "text": "Welcome to pain. The sequel. Starring a slightly more tolerable version of the other thing."
+  },
+  {
+    "name": "Encryption Bingo",
+    "steam_id": 1867451354,
+    "module_id": "encryptionBingo",
+    "text": "I reckon this module will go well with retirement."
   },
   {
     "name": "English Test",
@@ -1018,6 +1054,12 @@
     "steam_id": 1808068642,
     "module_id": "faultyDigitalRootModule",
     "text": "\"Carrot?\" \"Still the wrong root.\""
+  },
+  {
+    "name": "Faulty RGB Maze",
+    "steam_id": 1880521679,
+    "module_id": "faultyrgbMaze",
+    "text": "Now you too can experience... wait, where am I?"
   },
   {
     "name": "Faulty Sink",
@@ -1251,7 +1293,13 @@
     "name": "Genetic Sequence",
     "steam_id": 1647242712,
     "module_id": "geneticSequence",
-    "text": "Only true scientists synthetize proteins while bomb defusing."
+    "text": "Only true scientists synthesize proteins while bomb defusing."
+  },
+  {
+    "name": "Geometry Dash",
+    "steam_id": 1891254219,
+    "module_id": "geometryDashModule",
+    "text": "I hope RubRub doesn't see this..."
   },
   {
     "name": "The Giant's Drink",
@@ -1272,6 +1320,12 @@
     "text": "It's only colors and shapes... How hard can it be?"
   },
   {
+    "name": "Gray Cipher",
+    "steam_id": 1898602367,
+    "module_id": "grayCipher",
+    "text": "This cipher might seem gray and bleak and boring. Well, I must say... you’re not wrong."
+  },
+  {
     "name": "Greek Calculus",
     "steam_id": 1398997901,
     "module_id": "greekCalculus",
@@ -1282,6 +1336,12 @@
     "steam_id": 1757173794,
     "module_id": "greenArrowsModule",
     "text": "What's the point?"
+  },
+  {
+    "name": "Green Cipher",
+    "steam_id": 1870409884,
+    "module_id": "greenCipher",
+    "text": "It ain't easy being green. Nor is it easy being a cipher."
   },
   {
     "name": "Gridlock",
@@ -1324,6 +1384,12 @@
     "steam_id": 1632495656,
     "module_id": "harmonySequence",
     "text": "A harmony is to the musician's ears as a steak is to the gourmet."
+  },
+  {
+    "name": "Heraldry",
+    "steam_id": 1878642756,
+    "module_id": "heraldry",
+    "text": "Who doesn't need a coat of arms on their bedroom wall?"
   },
   {
     "name": "The Hexabutton",
@@ -1422,6 +1488,12 @@
     "text": "This device looks like it was recovered from an alien spacecraft. It moves in strange ways. What does it want from us?"
   },
   {
+    "name": "The Hyperlink",
+    "steam_id": 1898602367,
+    "module_id": "hyperlink",
+    "text": "UdSKWKZFdrU"
+  },
+  {
     "name": "Ice Cream",
     "steam_id": 1649217354,
     "module_id": "iceCreamModule",
@@ -1438,6 +1510,12 @@
     "steam_id": 1558709841,
     "module_id": "qSwedishMaze",
     "text": "I came in for a table, and left with a lamp, a mattress, and a bomb..."
+  },
+  {
+    "name": "Indigo Cipher",
+    "steam_id": 1883513229,
+    "module_id": "indigoCipher",
+    "text": "Roses are red. Violets are blue. Indigo cipher is here, and you are doomed."
   },
   {
     "name": "Insanagrams",
@@ -1488,10 +1566,22 @@
     "text": "P-A-R-T-Why? Because if you don't, we're going to explode."
   },
   {
+    "name": "Kanji",
+    "steam_id": 1890676453,
+    "module_id": "KanjiModule",
+    "text": "我は忍者になる世界平和のため！"
+  },
+  {
     "name": "Keypad",
     "steam_id": 0,
     "module_id": "Keypad",
     "text": "I'm not sure what these symbols are, but I suspect they have something to do with occult."
+  },
+  {
+    "name": "Keypad Combinations",
+    "steam_id": 1889671696,
+    "module_id": "keypadCombinations",
+    "text": "0849 2840 2984 7284 2984 1762… UGH. What was my pin number again?"
   },
   {
     "name": "Keypad Lock",
@@ -1966,6 +2056,12 @@
     "steam_id": 802366358,
     "module_id": "MysticSquareModule",
     "text": "O knight in shining armour, deliver us from the evils of the skull!"
+  },
+  {
+    "name": "N&Ms",
+    "steam_id": 1892878540,
+    "module_id": "NandMs",
+    "text": "Mama: \"No nom-nom!\" Nana: \"Mama no man?\""
   },
   {
     "name": "The Necronomicon",
@@ -2958,6 +3054,12 @@
     "text": "A retro game implemented into the bomb? That's not good!"
   },
   {
+    "name": "Ternary Converter",
+    "steam_id": 1892503856,
+    "module_id": "qkTernaryConverter",
+    "text": "Not only *Stores uses balanced ternary now"
+  },
+  {
     "name": "Terraria Quiz",
     "steam_id": 1738648396,
     "module_id": "lgndTerrariaQuiz",
@@ -3016,6 +3118,12 @@
     "steam_id": 1799582015,
     "module_id": "toonEnough",
     "text": "Are YOU toon enough?"
+  },
+  {
+    "name": "Tower of Hanoi",
+    "steam_id": 1888566158,
+    "module_id": "towerOfHanoi",
+    "text": "How many temple priests does it take to defuse a bomb?"
   },
   {
     "name": "Transmitted Morse",
@@ -3084,6 +3192,12 @@
     "text": "Troublesome terms to tell the trained team-member."
   },
   {
+    "name": "Ubermodule",
+    "steam_id": 1879936560,
+    "module_id": "ubermodule",
+    "text": "Oh no, not another one!"
+  },
+  {
     "name": "Ultimate Cycle",
     "steam_id": 1837951554,
     "module_id": "ultimateCycle",
@@ -3094,6 +3208,12 @@
     "steam_id": 1779022644,
     "module_id": "TheUltracubeModule",
     "text": "Oh I know this one! Wait, it looks different... Why are there more lines now?"
+  },
+  {
+    "name": "UltraStores",
+    "steam_id": 1891254873,
+    "module_id": "UltraStores",
+    "text": "Do you think God stays in heaven because he, too, lives in fear of what he's created?"
   },
   {
     "name": "Uncolored Squares",
@@ -3174,6 +3294,12 @@
     "text": "Julius Caesar's little brother...by about 1600 years..."
   },
   {
+    "name": "Violet Cipher",
+    "steam_id": 1884623865,
+    "module_id": "violetCipher",
+    "text": "Roses are red. Violets are blue. Didn't I already made this joke before? Oh well, here's a cipher for you."
+  },
+  {
     "name": "Visual Impairment",
     "steam_id": 1276349396,
     "module_id": "visual_impairment",
@@ -3208,6 +3334,12 @@
     "steam_id": 1624873692,
     "module_id": "westeros",
     "text": "An explosion is coming..."
+  },
+  {
+    "name": "White Cipher",
+    "steam_id": 1894852193,
+    "module_id": "whiteCipher",
+    "text": "White as the driven snow, this cipher knows no bounds to give defusers a hard time."
   },
   {
     "name": "Who's on First",
