@@ -510,6 +510,12 @@
     "text": "Who in the world is purchasing something at a time like this?"
   },
   {
+    "name": "Cheep Checkout",
+    "steam_id": 1912952468,
+    "module_id": "cheepCheckout",
+    "text": "All your bird and water fowl needs, all in one place!"
+  },
+  {
     "name": "Chess",
     "steam_id": 751202722,
     "module_id": "ChessModule",
@@ -720,6 +726,12 @@
     "text": "Column first or row first?"
   },
   {
+    "name": "Corners",
+    "steam_id": 1905267506,
+    "module_id": "CornersModule",
+    "text": "The solution is just around the corner."
+  },
+  {
     "name": "Countdown",
     "steam_id": 1558198220,
     "module_id": "countdown",
@@ -748,6 +760,12 @@
     "steam_id": 907916539,
     "module_id": "CreationModule",
     "text": "Let there be life!"
+  },
+  {
+    "name": "Cruel Boolean Maze",
+    "steam_id": 1911110811,
+    "module_id": "boolMazeCruel",
+    "text": "Hey, you guys wanted a wraparound maze right?"
   },
   {
     "name": "Cruel Countdown",
@@ -898,6 +916,12 @@
     "steam_id": 1551692607,
     "module_id": "DividedSquaresModule",
     "text": "Did the fact that this module's flavour text is in the middle of the page just jump out at you?"
+  },
+  {
+    "name": "Divisible Numbers",
+    "steam_id": 1905761012,
+    "module_id": "divisibleNumbers",
+    "text": "Who cares about divisibility rules, just use a calculator."
   },
   {
     "name": "Dominoes",
@@ -1422,6 +1446,12 @@
     "text": "Desecrate this module at your own risk. Death will come on swift wings to whomsoever fails to disarm it..."
   },
   {
+    "name": "The High Score",
+    "steam_id": 1907465755,
+    "module_id": "ksmHighScore",
+    "text": "Who is AAA, and how are they so good at everything?"
+  },
+  {
     "name": "Hill Cycle",
     "steam_id": 1837378649,
     "module_id": "hillCycle",
@@ -1518,6 +1548,12 @@
     "text": "Roses are red. Violets are blue. Indigo cipher is here, and you are doomed."
   },
   {
+    "name": "Ingredients",
+    "steam_id": 1909948139,
+    "module_id": "ingredients",
+    "text": "This might be a good spot to find some explosions. Let’s just hope that they’re explosions of flavor instead of the usual kind."
+  },
+  {
     "name": "Insanagrams",
     "steam_id": 1893449064,
     "module_id": "insanagrams",
@@ -1536,6 +1572,12 @@
     "text": "I mean, if there wasn't instructions here, we'd have a big problem."
   },
   {
+    "name": "Intervals",
+    "steam_id": 1911295327,
+    "module_id": "intervals",
+    "text": "Two buttons? This should be super easy!"
+  },
+  {
     "name": "The iPhone",
     "steam_id": 1307648687,
     "module_id": "iPhone",
@@ -1552,6 +1594,12 @@
     "steam_id": 1546985575,
     "module_id": "jackOLantern",
     "text": "Trick or treat!"
+  },
+  {
+    "name": "Jenga",
+    "steam_id": 1910955391,
+    "module_id": "jenga",
+    "text": "How do you stack up?"
   },
   {
     "name": "The Jewel Vault",
@@ -1752,6 +1800,12 @@
     "text": "Mind the gap!"
   },
   {
+    "name": "Loopover",
+    "steam_id": 1904259050,
+    "module_id": "loopover",
+    "text": "o follow the module's gimmick? Did you expect this flavor text t"
+  },
+  {
     "name": "Lousy Chess",
     "steam_id": 1866367885,
     "module_id": "lousyChess",
@@ -1762,6 +1816,12 @@
     "steam_id": 1805095296,
     "module_id": "luckyDice",
     "text": "Your work here is over. From this point on, it’s all down to luck."
+  },
+  {
+    "name": "Lunchtime",
+    "steam_id": 1919064546,
+    "module_id": "lunchtime",
+    "text": "Your boss has tasked you with buying his lunch. He’s given you some money and shoved you out the door, and… what’s that in the bag he gave you? A bomb? Oh, come on."
   },
   {
     "name": "Mad Memory",
@@ -1882,6 +1942,12 @@
     "steam_id": 1636397431,
     "module_id": "melodySequencer",
     "text": "Harmony and melody... creating both is the musician's greatest feat."
+  },
+  {
+    "name": "Memorable Buttons",
+    "steam_id": 1914098773,
+    "module_id": "memorableButtons",
+    "text": "Don’t forget to remember to remember. They’re very memorable, honest!"
   },
   {
     "name": "Memory",
@@ -2052,6 +2118,12 @@
     "text": "This module is powered by the restless soul of a murder victim. The only way to disarm it is to solve the case so the victim can pass peacefully to the afterlife."
   },
   {
+    "name": "Musical Transposition",
+    "steam_id": 1923138118,
+    "module_id": "Transposition",
+    "text": "It's piano keys, but more time-consuming. Have fun!"
+  },
+  {
     "name": "Mystic Square",
     "steam_id": 802366358,
     "module_id": "MysticSquareModule",
@@ -2062,6 +2134,12 @@
     "steam_id": 1892878540,
     "module_id": "NandMs",
     "text": "Mama: \"No nom-nom!\" Nana: \"Mama no man?\""
+  },
+  {
+    "name": "Natures",
+    "steam_id": 1921345328,
+    "module_id": "mcdNatures",
+    "text": "Sounds can be heard coming from inside! This egg will hatch soon!"
   },
   {
     "name": "The Necronomicon",
@@ -2100,6 +2178,12 @@
     "text": "The rules are simple: neutralize or be neutralized."
   },
   {
+    "name": "Neutrinos",
+    "steam_id": 1921961004,
+    "module_id": "neutrinos",
+    "text": "When the light hits your eye like a subatomic pie, that's neutrinooo..."
+  },
+  {
     "name": "Nonogram",
     "steam_id": 1139200290,
     "module_id": "NonogramModule",
@@ -2134,6 +2218,12 @@
     "steam_id": 1611527796,
     "module_id": "Numbers",
     "text": "420-69 are my favorite numbers."
+  },
+  {
+    "name": "Object Shows",
+    "steam_id": 1916548548,
+    "module_id": "objectShows",
+    "text": "According to my imagination, 99.8% of all bombs are detonated within 2 seconds of being started!"
   },
   {
     "name": "Odd One Out",
@@ -2574,6 +2664,12 @@
     "text": "According to OSHA regulations, all workplaces containing hazardous materials need to be marked using the NFPA-704 standard \"Fire Diamond\" so emergency personnel can quickly identify possible hazards. Everything about that makes sense exept for the fact that it's mounted on a bomb."
   },
   {
+    "name": "Scavenger Hunt",
+    "steam_id": 1923760982,
+    "module_id": "scavengerHunt",
+    "text": "Burying your problems won't solve them."
+  },
+  {
     "name": "Schlag den Bomb",
     "steam_id": 1563919175,
     "module_id": "qSchlagDenBomb",
@@ -2608,6 +2704,12 @@
     "steam_id": 1143024969,
     "module_id": "SetModule",
     "text": "Modules based on card games seem to be a thing now."
+  },
+  {
+    "name": "Seven Choose Four",
+    "steam_id": 1916614873,
+    "module_id": "sevenChooseFour",
+    "text": "What... is your favourite colour? Blue. No, yellOOOOOOOW!!"
   },
   {
     "name": "Seven Deadly Sins",
@@ -2839,9 +2941,15 @@
   },
   {
     "name": "Speak English",
-    "steam_id": 1667989538,
+    "steam_id": 1926265519,
     "module_id": "speakEnglish",
     "text": "So. Many. Languages."
+  },
+  {
+    "name": "Spelling Bee",
+    "steam_id": 1913696008,
+    "module_id": "spellingBee",
+    "text": "All the pressure of spelling words you’re never going to see again has been amplified because now if you spell the words wrong, you die!"
   },
   {
     "name": "The Sphere",
@@ -2892,22 +3000,10 @@
     "text": "Oh, another day at work, Which job did I need to do first? OH MY GOD, WHERE DID ALL THESE STICKY NOTES COME FROM!?"
   },
   {
-    "name": "The Stock Market",
-    "steam_id": 1425706154,
-    "module_id": "stockMarket",
-    "text": "Wall Street isn't exactly new to high pressure situations, so what's a live bomb?"
-  },
-  {
     "name": "The Stopwatch",
     "steam_id": 1335917404,
     "module_id": "stopwatch",
     "text": "Patience is key!"
-  },
-  {
-    "name": "Street Fighter",
-    "steam_id": 1593503353,
-    "module_id": "streetFighter",
-    "text": "Hadouken!"
   },
   {
     "name": "Street Fighter",
@@ -3082,6 +3178,12 @@
     "steam_id": 835806625,
     "module_id": "TextField",
     "text": "It's trivial. Just 6 letters out there! Wait, what did you say? Each letter has 5 rules to check? Never mind then."
+  },
+  {
+    "name": "Thinking Wires",
+    "steam_id": 1915715065,
+    "module_id": "thinkingWiresModule",
+    "text": "Wait a second, I have to cut a wire with the ability to think?"
   },
   {
     "name": "Third Base",
