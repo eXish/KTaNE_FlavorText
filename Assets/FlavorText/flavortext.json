@@ -23,12 +23,12 @@
     "module_id": "aa",
     "text": "aaaaaaaaa."
   },
-  {
+  /**{
     "name": "AAAAA",
     "steam_id": 1814012680,
     "module_id": "AAAAA",
     "text": "What is it with people and the letter A?"
-  },
+  },*/
   {
     "name": "Accumulation",
     "steam_id": 1542509478,
@@ -89,12 +89,12 @@
     "module_id": "alphabeticOrder",
     "text": "abcdefghijklmnopqrstuvwxyz"
   },
-  {
+  /**{
     "name": "Alphabetize",
     "steam_id": 1813632832,
     "module_id": "Alphabetize",
     "text": "You know the alphabet, right? Well, get ready to learn it again!"
-  },
+  },*/
   {
     "name": "Alphabet Numbers",
     "steam_id": 1429305542,
@@ -1709,12 +1709,12 @@
     "module_id": "lgndLEDMath",
     "text": "No, this isn't Color Morse."
   },
-  {
+  /**{
     "name": "LED Solver",
     "steam_id": 1807591664,
     "module_id": "LedSolver",
     "text": "Who knew that LEDs could be so deadly on a bomb?"
-  },
+  },*/
   {
     "name": "Left and Right",
     "steam_id": 1640175945,
@@ -2437,7 +2437,7 @@
   },
   {
     "name": "Prime Checker",
-    "steam_id": 1807034913,
+    "steam_id": 1901238614,
     "module_id": "primechecker",
     "text": "Check the primes!"
   },
@@ -2567,12 +2567,12 @@
     "module_id": "retirement",
     "text": "Time to spend some time with your remaining limbs following far too many explosions."
   },
-  {
+  /**{
     "name": "Reverse Alphabetize",
     "steam_id": 1817669442,
     "module_id": "ReverseAlphabetize",
     "text": "You know the alphabet, right? Dvoo, tvg ivzwb gl ovzim rg ztzrm!"
-  },
+  },*/
   {
     "name": "Reverse Morse",
     "steam_id": 1490029772,
