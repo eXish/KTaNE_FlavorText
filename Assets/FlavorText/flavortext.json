@@ -1,5 +1,23 @@
 ﻿[
   {
+    "name": "% Grey",
+    "steam_id": 1951154690,
+    "module_id": "PercentageGreyModule",
+    "text": "But how will you relay this information in between you and the defuser?"
+  },
+  {
+    "name": "14",
+    "steam_id": 1940043870,
+    "module_id": "14",
+    "text": "How can this module be real if our eyes aren't real?"
+  },
+  {
+    "name": "15 Mystic Lights",
+    "steam_id": 1940164898,
+    "module_id": "15MysticLights",
+    "text": "Is this grid blue and yellow or black and white?"
+  },
+  {
     "name": "101 Dalmatians",
     "steam_id": 1563555397,
     "module_id": "OneHundredAndOneDalmatiansModule",
@@ -18,6 +36,18 @@
     "text": "Let's take this to another dimension."
   },
   {
+    "name": "3x3 Grid",
+    "steam_id": 1940164898,
+    "module_id": "3x3Grid",
+    "text": "If there’s nothing here then do I do nothing or do everything?"
+  },
+  {
+    "name": "64",
+    "steam_id": 1951226054,
+    "module_id": "64",
+    "text": "Who knew putting in the same number was so hard?!"
+  },
+  {
     "name": "aa",
     "steam_id": 1879018353,
     "module_id": "aa",
@@ -34,6 +64,12 @@
     "steam_id": 1542509478,
     "module_id": "accumulation",
     "text": "It looks like somebody ate a paintbox and then threw it up all over a module..."
+  },
+  {
+    "name": "Addition",
+    "steam_id": 1948882673,
+    "module_id": "AdditionModule",
+    "text": "This is literally just addition. I have no idea why anybody thought that this would be fun, challenging, or interesting to put on a bomb."
   },
   {
     "name": "Adjacent Letters",
@@ -132,6 +168,12 @@
     "text": "Up, up, down, down, left, right, left, right..."
   },
   {
+    "name": "Answering Can Be Fun",
+    "steam_id": 1939803512,
+    "module_id": "AnsweringCanBeFun",
+    "text": "füñ"
+  },
+  {
     "name": "Answering Questions",
     "steam_id": 743198269,
     "module_id": "NeedyVentV2",
@@ -154,6 +196,12 @@
     "steam_id": 745341328,
     "module_id": "spwizAstrology",
     "text": "Sometimes, the stars have it out for you. Is this bomb a good or a poor omen?"
+  },
+  {
+    "name": "Atbash Cipher",
+    "steam_id": 1948910198,
+    "module_id": "AtbashCipherModule",
+    "text": "R nvnliravw Zgyzhs! - cerulean"
   },
   {
     "name": "Baba Is Who?",
@@ -222,6 +270,12 @@
     "text": "Strange, but these codes are easy and impossible at the same time."
   },
   {
+    "name": "Binary Grid",
+    "steam_id": 1950221719,
+    "module_id": "binaryGrid",
+    "text": "There are 10 types of people in the world : those who understand binary, and those who don’t."
+  },
+  {
     "name": "Binary LEDs",
     "steam_id": 949930700,
     "module_id": "BinaryLeds",
@@ -252,16 +306,22 @@
     "text": "Nobody's favorite kind of math. Who even likes math, anyway?"
   },
   {
+    "name": "Black Cipher",
+    "steam_id": 1940168029,
+    "module_id": "blackCipher",
+    "text": "Black as the world it came from, this cipher will be the end of you."
+  },
+  {
     "name": "Black Hole",
     "steam_id": 1415037641,
     "module_id": "BlackHoleModule",
     "text": "Ground control to Major Tom, do you read?"
   },
   {
-    "name": "Black Cipher",
-    "steam_id": 1940168029,
-    "module_id": "blackCipher",
-    "text": "Black as the world it came from, this cipher will be the end of you."
+    "name": "The Black Page",
+    "steam_id": 1952286416,
+    "module_id": "TheBlackPage",
+    "text": "Every musician's test to read."
   },
   {
     "name": "Blackjack",
@@ -280,6 +340,12 @@
     "steam_id": 1286297509,
     "module_id": "BlindMaze",
     "text": "Not only do you have to find the exit, you have to find the beginning!"
+  },
+  {
+    "name": "Blinkstop",
+    "steam_id": 1937984890,
+    "module_id": "blinkstopModule",
+    "text": "The second you blink you will probably miss important information."
   },
   {
     "name": "The Block",
@@ -450,6 +516,12 @@
     "text": "Click. Click. Kaboom!"
   },
   {
+    "name": "BuzzFizz",
+    "steam_id": 1940164898,
+    "module_id": "buzzfizz",
+    "text": "Bees would probably find this game extremely difficult."
+  },
+  {
     "name": "Caesar Cipher",
     "steam_id": 804644203,
     "module_id": "CaesarCipherModule",
@@ -558,6 +630,12 @@
     "text": "What kind of code? It could be a letter code! It could be a digit code! Heck, it could even be an alphanumeric code! ffffffffffffffffffffffffffffffffffffffff."
   },
   {
+    "name": "Codenames",
+    "steam_id": 1935171870,
+    "module_id": "codenames",
+    "text": "The bond's Name. James Name. Bond Name's The James."
+  },
+  {
     "name": "Coding Effiencitly",
     "steam_id": 1824101420,
     "module_id": "GoCommitCoding",
@@ -610,6 +688,12 @@
     "steam_id": 720338853,
     "module_id": "ColourFlash",
     "text": "It's easy to identify colors. Red, Blue, Green, etc. Turns out it's a bit harder when you display a word color in a different color though..."
+  },
+  {
+    "name": "Colorful Dials",
+    "steam_id": 1945641235,
+    "module_id": "colorfulDials",
+    "text": "Look at all the pretty colors... *Twist* *Twist* *Twist* *Twist*."
   },
   {
     "name": "Colorful Insanity",
@@ -780,6 +864,12 @@
     "text": "I just knew it was too easy!"
   },
   {
+    "name": "Cruel Keypads",
+    "steam_id": 1950736574,
+    "module_id": "CruelKeypads",
+    "text": "Do you know korean?"
+  },
+  {
     "name": "Cruel Piano Keys",
     "steam_id": 720356976,
     "module_id": "CruelPianoKeys",
@@ -790,6 +880,12 @@
     "steam_id": 1797174349,
     "module_id": "cruel10sec",
     "text": "Why the zeros are red, I remember them yellow?"
+  },
+  {
+    "name": "The cRule",
+    "steam_id": 1944953727,
+    "module_id": "the_cRule",
+    "text": "Isn't this whole game pretty cruel anyway?"
   },
   {
     "name": "Cryptic Cycle",
@@ -888,6 +984,12 @@
     "text": "Let's digitize everything..."
   },
   {
+    "name": "Digital Dials",
+    "steam_id": 1942340222,
+    "module_id": "digitalDials",
+    "text": "*Twist* *Twist* *Twist* *Twist*."
+  },
+  {
     "name": "Digital Root",
     "steam_id": 1376732128,
     "module_id": "digitalRoot",
@@ -978,6 +1080,12 @@
     "text": "You would think that the ports on the side of the bomb are used for something other than just for answering questions..."
   },
   {
+    "name": "egg",
+    "steam_id": 1940088321,
+    "module_id": "bigegg",
+    "text": "big egg."
+  },
+  {
     "name": "Eight Pages",
     "steam_id": 1894619452,
     "module_id": "lgndEightPages",
@@ -994,6 +1102,12 @@
     "steam_id": 729096093,
     "module_id": "Emoji Math",
     "text": "Math is easy. But is it easy when the numbers are in another language? Let's find out."
+  },
+  {
+    "name": "Encrypted Dice",
+    "steam_id": 1945183738,
+    "module_id": "EncryptedDice",
+    "text": "Now made easier and simpler!"
   },
   {
     "name": "Encrypted Equations",
@@ -1176,6 +1290,12 @@
     "text": "Child's play. Just follow the leader. Only if you fail to follow, the penalty is somewhat more explosive."
   },
   {
+    "name": "Following Orders",
+    "steam_id": 1948412264,
+    "module_id": "FollowingOrders",
+    "text": "This is the first module that wants you to succeed so badly, it’s yelling the answer at you!"
+  },
+  {
     "name": "Font Select",
     "steam_id": 1406694607,
     "module_id": "FontSelect",
@@ -1204,6 +1324,12 @@
     "steam_id": 1352512916,
     "module_id": "HexiEvilFMN",
     "text": "I'm not sure what this is, and at this point I'm too afraid to ask."
+  },
+  {
+    "name": "Forget It Not",
+    "steam_id": 1940164898,
+    "module_id": "forgetItNot",
+    "text": "This forget is quite literal."
   },
   {
     "name": "Forget Me Later",
@@ -1416,6 +1542,12 @@
     "text": "Who doesn't need a coat of arms on their bedroom wall?"
   },
   {
+    "name": "Hereditary Base Notations",
+    "steam_id": 1942342709,
+    "module_id": "hereditaryBaseNotationModule",
+    "text": "I'm not really sure why we invented fancy number systems. We now have to deal with our creation, in an explosive way."
+  },
+  {
     "name": "The Hexabutton",
     "steam_id": 1646446071,
     "module_id": "hexabutton",
@@ -1456,6 +1588,12 @@
     "steam_id": 1837378649,
     "module_id": "hillCycle",
     "text": "Not the kind you need a mountain bike for."
+  },
+  {
+    "name": "Hinges",
+    "steam_id": 1938142226,
+    "module_id": "hinges",
+    "text": "Make sure the module doesn't fly at your face!"
   },
   {
     "name": "Hogwarts",
@@ -1643,12 +1781,12 @@
     "module_id": "NeedyKnob",
     "text": "Needlessly complicated and endlessly needy. Imagine if such expertise were used to make something other than diabolical puzzles."
   },
-  {
+  /**{
     "name": "Know Your Way",
     "steam_id": 1461359648,
     "module_id": "KnowYourWay",
     "text": "If DOWN is on the LEFT I have to press RIGHT if I wanna submit UP. Easy."
-  },
+  },*/
   {
     "name": "Kooky Keypad",
     "steam_id": 1869640550,
@@ -1758,6 +1896,12 @@
     "text": "\"Mr La Forge, set phasers to explode...\""
   },
   {
+    "name": "Lines of Code",
+    "steam_id": 1944815353,
+    "module_id": "linesOfCode",
+    "text": "\"Okay, we've got Lines of Code.\" \"Uh... how'd you hack into the mainframe?\""
+  },
+  {
     "name": "Lion's Share",
     "steam_id": 1533680290,
     "module_id": "LionsShareModule",
@@ -1786,6 +1930,12 @@
     "steam_id": 1352138977,
     "module_id": "logicGates",
     "text": "There are only 10 types of bomb experts: those who understand logic gates, and those who don't."
+  },
+  {
+    "name": "Logic Statement",
+    "steam_id": 1937777727,
+    "module_id": "logicStatement",
+    "text": "Better learn logic gates before trying this one."
   },
   {
     "name": "Lombax Cubes",
@@ -1872,12 +2022,6 @@
     "text": "Let's see here, 96 + 3 = 99. Oh god."
   },
   {
-    "name": "Matchematics",
-    "steam_id": 1839930546,
-    "module_id": "matchematics",
-    "text": "Can you make the match?"
-  },
-  {
     "name": "Mastermind Simple",
     "steam_id": 1102360624,
     "module_id": "Mastermind Simple",
@@ -1896,10 +2040,22 @@
     "text": "Just some dots and lines, really."
   },
   {
+    "name": "Matchematics",
+    "steam_id": 1839930546,
+    "module_id": "matchematics",
+    "text": "Can you make the match?"
+  },
+  {
     "name": "Math",
     "steam_id": 729096093,
     "module_id": "Needy Math",
     "text": "Math is still easy. But is it easy when you have to answer questions over and over to stop an explosion? Only one way to find out."
+  },
+  {
+    "name": "Matrices",
+    "steam_id": 1950844621,
+    "module_id": "MatrixQuiz",
+    "text": "Go take a linear algebra course, we'll wait... but the bomb won't."
   },
   {
     "name": "The Matrix",
@@ -2112,6 +2268,12 @@
     "text": "Inside some bombs is a mouse that is remote-controlled via a chip in its spinal cord."
   },
   {
+    "name": "Multi-Colored Switches",
+    "steam_id": 1937928997,
+    "module_id": "R4YMultiColoredSwitches",
+    "text": "\"AAAAA AAAAA! MY EYES! SOO MANY COLORS!\""
+  },
+  {
     "name": "Murder",
     "steam_id": 770681654,
     "module_id": "murder",
@@ -2190,6 +2352,12 @@
     "text": "Who in the world puts a newspaper puzzle on an explosive device?"
   },
   {
+    "name": "❖",
+    "steam_id": 1940164898,
+    "module_id": "nonverbalSimon",
+    "text": "❖"
+  },
+  {
     "name": "The Number",
     "steam_id": 1360126644,
     "module_id": "theNumber",
@@ -2224,6 +2392,12 @@
     "steam_id": 1916548548,
     "module_id": "objectShows",
     "text": "According to my imagination, 99.8% of all bombs are detonated within 2 seconds of being started!"
+  },
+  {
+    "name": "Odd Mod Out",
+    "steam_id": 1935193472,
+    "module_id": "lgndOddModOut",
+    "text": "Spot the difference."
   },
   {
     "name": "Odd One Out",
@@ -2290,6 +2464,12 @@
     "steam_id": 1542122764,
     "module_id": "PartyTime",
     "text": "This party is the bomb!"
+  },
+  {
+    "name": "Passcodes",
+    "steam_id": 1944044273,
+    "module_id": "xtrpasscodes",
+    "text": "There's 3 of those and 2 of these so it's 5, which is 'S'... Oh come on, I forgot to subtract one!"
   },
   {
     "name": "Passport Control",
@@ -2418,6 +2598,12 @@
     "text": "Usually in poker, the wrong call means losing a lot of money. Here, it means death."
   },
   {
+    "name": "Polygons",
+    "steam_id": 1929516479,
+    "module_id": "polygons",
+    "text": "People often say that you don’t need geometry in the real world. Those people are now blown up."
+  },
+  {
     "name": "Polyhedral Maze",
     "steam_id": 1253515570,
     "module_id": "PolyhedralMazeModule",
@@ -2440,6 +2626,12 @@
     "steam_id": 1901238614,
     "module_id": "primechecker",
     "text": "Check the primes!"
+  },
+  {
+    "name": "Prime Encryption",
+    "steam_id": 1945694656,
+    "module_id": "primeEncryption",
+    "text": "Some locks were just not made to be broken…"
   },
   {
     "name": "Probing",
@@ -2500,6 +2692,12 @@
     "steam_id": 1575515429,
     "module_id": "KritRadio",
     "text": "The signal keeps breaking up..."
+  },
+  {
+    "name": "Rainbow Arrows",
+    "steam_id": 1940341494,
+    "module_id": "ksmRainbowArrows",
+    "text": "Pointedly pointless pointing."
   },
   {
     "name": "Random Number Generator",
@@ -2578,6 +2776,12 @@
     "steam_id": 1490029772,
     "module_id": "reverseMorse",
     "text": "It's one thing to read somebody else's Morse message. Now it's time to send your own."
+  },
+  {
+    "name": "Reversed Edgework",
+    "steam_id": 1950730138,
+    "module_id": "ReversedEdgework",
+    "text": "In Soviet Russia Edgework Questions everything"
   },
   {
     "name": "RGB Maze",
@@ -2758,6 +2962,12 @@
     "steam_id": 814822565,
     "module_id": "SillySlots",
     "text": "Sassy Sally said sorry since soggy Steven slurped soup."
+  },
+  {
+    "name": "Simon Forgets",
+    "steam_id": 1952732783,
+    "module_id": "simonForgets",
+    "text": "Hey, It's not alliterative! You can't do tha...   oh."
   },
   {
     "name": "Simon Literally Says",
@@ -3198,10 +3408,22 @@
     "text": "All those years of getting ties in Tic-Tac-Toe might finally pay off."
   },
   {
+    "name": "Time Accumulation",
+    "steam_id": 1940164898,
+    "module_id": "timeAccumulation",
+    "text": "This module requires quick reaction, but not too quick."
+  },
+  {
     "name": "The Time Keeper",
     "steam_id": 1416853392,
     "module_id": "timeKeeper",
     "text": "I just need a few more seconds, okay?"
+  },
+  {
+    "name": "Time Signatures",
+    "steam_id": 1942457475,
+    "module_id": "timeSignatures",
+    "text": "Don't look at this manual too long, or you will actually lose time!"
   },
   {
     "name": "Timezone",
@@ -3298,6 +3520,18 @@
     "steam_id": 1879936560,
     "module_id": "ubermodule",
     "text": "Oh no, not another one!"
+  },
+  {
+    "name": "Ultimate Cipher",
+    "steam_id": 1932944041,
+    "module_id": "ultimateCipher",
+    "text": "All ciphering techniques are required to solve this module."
+  },
+  {
+    "name": "Ultimate Custom Night",
+    "steam_id": 1938371134,
+    "module_id": "qkUCN",
+    "text": "Sad fact: no pineapple animatronic exists in FNAF."
   },
   {
     "name": "Ultimate Cycle",
