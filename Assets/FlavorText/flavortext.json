@@ -401,12 +401,12 @@
     "module_id": "boneAppleTea",
     "text": "Ah yes, synonym rolls... Just like grammar used to make."
   },
-  {
+  /**{
     "name": "Book of Mario Thousands of Doors",
     "steam_id": 1808982413,
     "module_id": "BookofMarioModule",
     "text": "This translation article has been translated to Google"
-  },
+  },*/
   {
     "name": "Boolean Keypad",
     "steam_id": 1797329175,
@@ -623,24 +623,24 @@
     "module_id": "TheClockModule",
     "text": "Tick-tock... as if you needed more reminding that time is running out."
   },
-  {
+  /**{
     "name": "The Code",
     "steam_id": 1382827451,
     "module_id": "theCodeModule",
     "text": "What kind of code? It could be a letter code! It could be a digit code! Heck, it could even be an alphanumeric code! ffffffffffffffffffffffffffffffffffffffff."
-  },
+  },*/
   {
     "name": "Codenames",
     "steam_id": 1935171870,
     "module_id": "codenames",
     "text": "The bond's Name. James Name. Bond Name's The James."
   },
-  {
+  /**{
     "name": "Coding Effiencitly",
     "steam_id": 1824101420,
     "module_id": "GoCommitCoding",
     "text": "Apparently you can learn coding while defusing a bomb"
-  },
+  },*/
   {
     "name": "Coffeebucks",
     "steam_id": 1528518212,
@@ -1069,7 +1069,7 @@
   },
   {
     "name": "Dr. Doctor",
-    "steam_id": 1368016170,
+    "steam_id": 1978024508,
     "module_id": "DrDoctorModule",
     "text": "*coughs* Since when can a bomb give me a prescription?!?"
   },
@@ -1373,12 +1373,12 @@
     "module_id": "forgetUsNot",
     "text": "Power is in tearing human minds to pieces and putting them back together again in new shapes of your own choosing. -Orwell, 1984."
   },
-  {
+  /**{
     "name": "The Fortnight",
     "steam_id": 1822951298,
     "module_id": "KtaneTheForkKnife",
     "text": "Rekking noskins has never been easier before *dabs*"
-  },
+  },*/
   {
     "name": "Four-Card Monte",
     "steam_id": 1691902955,
@@ -2567,12 +2567,12 @@
     "module_id": "MazeV2",
     "text": "I'd wash your hands after this one..."
   },
-  {
+  /**{
     "name": "The Plunger",
     "steam_id": 1646013068,
     "module_id": "needyPlunger",
     "text": "Houston, we have an easy needy module."
-  },
+  },*/
   {
     "name": "The Plunger Button",
     "steam_id": 1544816895,
@@ -2777,12 +2777,12 @@
     "module_id": "reverseMorse",
     "text": "It's one thing to read somebody else's Morse message. Now it's time to send your own."
   },
-  {
+  /**{
     "name": "Reversed Edgework",
     "steam_id": 1950730138,
     "module_id": "ReversedEdgework",
     "text": "In Soviet Russia Edgework Questions everything"
-  },
+  },*/
   {
     "name": "RGB Maze",
     "steam_id": 1871931504,
