@@ -125,6 +125,12 @@
     "module_id": "alphabeticOrder",
     "text": "abcdefghijklmnopqrstuvwxyz"
   },
+  {
+    "name": "Alphabetical Ruling",
+    "steam_id": 1984044133,
+    "module_id": "alphabeticalRuling",
+    "text": "I used to rule the world - Cs would rise when I gave the word."
+  },
   /**{
     "name": "Alphabetize",
     "steam_id": 1813632832,
@@ -192,6 +198,12 @@
     "text": "(Math is fun) ^ (Bomb is armed) = True."
   },
   {
+    "name": "ASCII Art",
+    "steam_id": 1977175713,
+    "module_id": "asciiart",
+    "text": "(>'-')> <('-'<) (>'-')> <('-'<)"
+  },
+  {
     "name": "Astrology",
     "steam_id": 745341328,
     "module_id": "spwizAstrology",
@@ -232,6 +244,12 @@
     "steam_id": 1864521463,
     "module_id": "bamboozlingButtonGrid",
     "text": "This is exactly as hard as it looks..."
+  },
+  {
+    "name": "Bamboozling Time Keeper",
+    "steam_id": 1963535165,
+    "module_id": "bamboozlingTimeKeeper",
+    "text": "I needed a few more minutes, not just a few more seconds!"
   },
   {
     "name": "Bartending",
@@ -438,16 +456,46 @@
     "text": "Roses are red, Violets are blue. What why’d you put this on a bomb? WHAT’S WRONG WITH YOU."
   },
   {
+    "name": "Boozleglyph Identification",
+    "steam_id": 1974393045,
+    "module_id": "boozleglyphIdentification",
+    "text": "That's right I've been bamboozled, over and over again..."
+  },
+  {
     "name": "Bordered Keys",
     "steam_id": 1773305524,
     "module_id": "borderedKeys",
     "text": "These keys look a little different. Did they lose weight?"
   },
   {
+    "name": "Boxing",
+    "steam_id": 1975422802,
+    "module_id": "boxing",
+    "text": "To defuse it, you're gonna have to have the heart to stand in front of it, and to do that, you've gotta be willing to die yourself. I don't know if you're ready to do that."
+  },
+  {
     "name": "Braille",
     "steam_id": 1187303490,
     "module_id": "BrailleModule",
     "text": "This doesn't feel right."
+  },
+  {
+    "name": "Brainf---",
+    "steam_id": 1972281011,
+    "module_id": "brainf",
+    "text": "-[--->+<]>---.[------>+<
+]>--.--[--->+<]>-.+++[->
++++<]>.-.-[--->+<]>-.[--
+>+++<]>+.+.--[--->++<]
+>.++[->+++<]>.+++++++
+++.+++.[-->+++++<]>++
++.+[----->+<]>.----.+++.-
+-------.-[--->+<]>-.[->++
++<]>++.-.+++.-[--->+<]>
+-.++[--->++<]>.----------
+-.+++++++++++++.------
+-.--[--->+<]>--.[->+++<]
+>++.++++++.--.[->+++<]>-."
   },
   {
     "name": "British Slang",
@@ -623,12 +671,12 @@
     "module_id": "TheClockModule",
     "text": "Tick-tock... as if you needed more reminding that time is running out."
   },
-  /**{
+  {
     "name": "The Code",
-    "steam_id": 1382827451,
+    "steam_id": 1979252637,
     "module_id": "theCodeModule",
     "text": "What kind of code? It could be a letter code! It could be a digit code! Heck, it could even be an alphanumeric code! ffffffffffffffffffffffffffffffffffffffff."
-  },*/
+  },
   {
     "name": "Codenames",
     "steam_id": 1935171870,
@@ -772,6 +820,12 @@
     "steam_id": 0,
     "module_id": "Venn",
     "text": "These wires aren't like the others. Some have stripes! That makes them completely different. The good news is that we've found a concise set of instructions on what to do about it! Maybe too concise..."
+  },
+  {
+    "name": "Conditional Buttons",
+    "steam_id": 1977655525,
+    "module_id": "conditionalButtons",
+    "text": "Colored buttons, how hard can this be?"
   },
   {
     "name": "Connection Check",
@@ -1068,10 +1122,22 @@
     "text": "It’s the Wild Wild West!"
   },
   {
+    "name": "Dreamcipher",
+    "steam_id": 1970249891,
+    "module_id": "ksmDreamcipher",
+    "text": "I'm not awake enough for this nonsense. I'm going back to bed."
+  },
+  {
     "name": "Dr. Doctor",
     "steam_id": 1978024508,
     "module_id": "DrDoctorModule",
     "text": "*coughs* Since when can a bomb give me a prescription?!?"
+  },
+  {
+    "name": "Echolocation",
+    "steam_id": 1974597462,
+    "module_id": "echolocation",
+    "text": "Close your eyes and open your mind..."
   },
   {
     "name": "Edgework",
@@ -1458,6 +1524,12 @@
     "text": "\"He never guessed right. Sometimes his head was dissolved. Sometimes he caught on fire. Sometimes he fell in and drowned. Sometimes he fell out, turned green, and rotted away. It was always ghastly, and the Giant always laughed.\""
   },
   {
+    "name": "Going Backwards",
+    "steam_id": 1964807891,
+    "module_id": "GoingBackwardsModule",
+    "text": "!tsaf og attoG"
+  },
+  {
     "name": "Graffiti Numbers",
     "steam_id": 1377563237,
     "module_id": "graffitiNumbers",
@@ -1480,6 +1552,12 @@
     "steam_id": 1398997901,
     "module_id": "greekCalculus",
     "text": "The bomb makers are clever. Either the bomb explodes, or they get the answers to their calculus problems. Make your choice. Also, they like Greek letters. Good luck!"
+  },
+  {
+    "name": "Greek Letter Grid",
+    "steam_id": 1958921083,
+    "module_id": "greekLetterGrid",
+    "text": "It's not an \"upside-down L\" anymore!"
   },
   {
     "name": "Green Arrows",
@@ -1572,6 +1650,12 @@
     "text": "Some things are just hidden in plain sight."
   },
   {
+    "name": "Hide and Seek",
+    "steam_id": 1980685895,
+    "module_id": "hideAndSeek",
+    "text": "Ready or not..."
+  },
+  {
     "name": "Hieroglyphics",
     "steam_id": 1583032190,
     "module_id": "hieroglyphics",
@@ -1660,6 +1744,12 @@
     "steam_id": 1898602367,
     "module_id": "hyperlink",
     "text": "UdSKWKZFdrU"
+  },
+  {
+    "name": "Hyperneedy",
+    "steam_id": 1974393045,
+    "module_id": "hyperneedy",
+    "text": "Well, it's two less dimensions to deal with, but the lines are still missing. Lovely."
   },
   {
     "name": "Ice Cream",
@@ -1774,6 +1864,12 @@
     "steam_id": 1874204196,
     "module_id": "keypadLock",
     "text": "There are 23 wrong combinations with four button presses. We can strike 23 times right?"
+  },
+  {
+    "name": "Keywords",
+    "steam_id": 1968562216,
+    "module_id": "xtrkeywords",
+    "text": "Thank goodness they left a post-it with the answers- or well... half of them..."
   },
   {
     "name": "Knob",
@@ -2008,6 +2104,12 @@
     "steam_id": 1377269180,
     "module_id": "MarbleTumbleModule",
     "text": "Left. Left! ... No, the other left!"
+  },
+  {
+    "name": "Marco Polo",
+    "steam_id": 1974393045,
+    "module_id": "marcoPolo",
+    "text": "Yeah, I pretty much never sit by the pool anymore."
   },
   {
     "name": "Maritime Flags",
@@ -2329,7 +2431,7 @@
   },
   {
     "name": "Needy Piano",
-    "steam_id": 1826497972,
+    "steam_id": 1980685895,
     "module_id": "needyPiano",
     "text": "This module puts a whole new light on the saying \"taking notes\"."
   },
@@ -2694,6 +2796,18 @@
     "text": "The signal keeps breaking up..."
   },
   {
+    "name": "Raiding Temples",
+    "steam_id": 1789735796,
+    "module_id": "raidingTemples",
+    "text": "Snakes, spiders, rocks and quicksand. Why did it have to be snakes, spiders, rocks and quicksand?"
+  },
+  {
+    "name": "Railway Cargo Loading",
+    "steam_id": 1977063810,
+    "module_id": "RailwayCargoLoading",
+    "text": "If you thought bombs on trains were bad, now we have trains on bombs."
+  },
+  {
     "name": "Rainbow Arrows",
     "steam_id": 1940341494,
     "module_id": "ksmRainbowArrows",
@@ -2734,6 +2848,12 @@
     "steam_id": 1852030206,
     "module_id": "redCipher",
     "text": "Seeing red is the standard for this module."
+  },
+  {
+    "name": "Red Light Green Light",
+    "steam_id": 1974393045,
+    "module_id": "redLightGreenLight",
+    "text": "One two freeze!"
   },
   {
     "name": "Refill that Beer!",
@@ -2832,6 +2952,12 @@
     "text": "Hello, this is emergency services, please hold..."
   },
   {
+    "name": "Rotating Squares",
+    "steam_id": 1974393045,
+    "module_id": "rotatingSquares",
+    "text": "A good memory and a good sense of direction is all you need. Easy, right?"
+  },
+  {
     "name": "Round Keypad",
     "steam_id": 743198269,
     "module_id": "KeypadV2",
@@ -2868,6 +2994,12 @@
     "text": "According to OSHA regulations, all workplaces containing hazardous materials need to be marked using the NFPA-704 standard \"Fire Diamond\" so emergency personnel can quickly identify possible hazards. Everything about that makes sense exept for the fact that it's mounted on a bomb."
   },
   {
+    "name": "Scalar Dials",
+    "steam_id": 1966471261,
+    "module_id": "scalarDials",
+    "text": "*Twist* Wait, did I hear something? *Twist*"
+  },
+  {
     "name": "Scavenger Hunt",
     "steam_id": 1923760982,
     "module_id": "scavengerHunt",
@@ -2896,6 +3028,12 @@
     "steam_id": 795173656,
     "module_id": "SeaShells",
     "text": "Clear communication is crucial when defusing bombs. One can only assume that this module doesn't want to be defused."
+  },
+  {
+    "name": "Semamorse",
+    "steam_id": 1978998933,
+    "module_id": "semamorse",
+    "text": "What do you do when you have two things you like? Smash them together, of course."
   },
   {
     "name": "Semaphore",
@@ -2967,7 +3105,7 @@
     "name": "Simon Forgets",
     "steam_id": 1952732783,
     "module_id": "simonForgets",
-    "text": "Hey, It's not alliterative! You can't do tha...   oh."
+    "text": "Hey, It's not alliterative! You can't do tha... oh."
   },
   {
     "name": "Simon Literally Says",
@@ -3204,6 +3342,12 @@
     "text": "I WARNED YOU ABOUT STARES BRO!!!! I TOLD YOU DOG!"
   },
   {
+    "name": "State of Aggregation",
+    "steam_id": 1969529078,
+    "module_id": "stateOfAggregation",
+    "text": "I hope there is good chemistry between you and the bomb defuser.."
+  },
+  {
     "name": "Sticky Notes",
     "steam_id": 1763550522,
     "module_id": "stickyNotes",
@@ -3292,6 +3436,12 @@
     "steam_id": 1649097661,
     "module_id": "symbolicPasswordModule",
     "text": "Websites allow symbols in passwords now, but this is ridiculous!"
+  },
+  {
+    "name": "Symbolic Tasha",
+    "steam_id": 1982457667,
+    "module_id": "symbolicTasha",
+    "text": "This module is so worn down. It’s forgotten because no one recalls of who Tasha is. Let’s hope we don’t have to repair the glass."
   },
   {
     "name": "SYNC-125 [3]",
@@ -3442,6 +3592,12 @@
     "steam_id": 1799582015,
     "module_id": "toonEnough",
     "text": "Are YOU toon enough?"
+  },
+  {
+    "name": "Topsy Turvy",
+    "steam_id": 1975632072,
+    "module_id": "topsyTurvy",
+    "text": "pᴉp noʎ ǝsɹnoɔ ɟo 'ƃuᴉʎɐs I ɯɐ ʇɐɥʍ 'ɥO -ʇɔǝdxǝ noʎ pᴉp"
   },
   {
     "name": "Tower of Hanoi",
@@ -3742,6 +3898,12 @@
     "steam_id": 814168200,
     "module_id": "WordSearchModule",
     "text": "LZIEAJDHARDERBNCOJWTHANPQIEYBZITLOOKSYWH"
+  },
+  {
+    "name": "The World's Largest Button",
+    "steam_id": 1968458842,
+    "module_id": "WorldsLargestButton",
+    "text": "Someone didn’t scale correctly..."
   },
   {
     "name": "X01",
