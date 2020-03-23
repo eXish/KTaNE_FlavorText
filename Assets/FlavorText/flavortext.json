@@ -18,6 +18,12 @@
     "text": "Is this grid blue and yellow or black and white?"
   },
   {
+    "name": "1000 Words",
+    "steam_id": 2006223597,
+    "module_id": "OneThousandWordAdvertisement",
+    "text": "The name is for the table. The actual amount is doubled."
+  },
+  {
     "name": "101 Dalmatians",
     "steam_id": 1563555397,
     "module_id": "OneHundredAndOneDalmatiansModule",
@@ -108,6 +114,12 @@
     "text": "\"Why do we need to study algebra? We'll never use it in real life...\" Anybody else remember saying that?"
   },
   {
+    "name": "Alliances",
+    "steam_id": 1992623602,
+    "module_id": "alliances",
+    "text": "“On second thought, let’s not go to Camelot; it is a silly place.”"
+  },
+  {
     "name": "Alpha",
     "steam_id": 1701813407,
     "module_id": "aa",
@@ -131,12 +143,12 @@
     "module_id": "alphabeticalRuling",
     "text": "I used to rule the world - Cs would rise when I gave the word."
   },
-  /**{
+  {
     "name": "Alphabetize",
-    "steam_id": 1813632832,
+    "steam_id": 2000097755,
     "module_id": "Alphabetize",
     "text": "You know the alphabet, right? Well, get ready to learn it again!"
-  },*/
+  },
   {
     "name": "Alphabet Numbers",
     "steam_id": 1429305542,
@@ -154,6 +166,12 @@
     "steam_id": 1853561507,
     "module_id": "ksmAmazeingButtons",
     "text": "What's so amazing about these buttons? I've been pressing ones just like them for ages!"
+  },
+  {
+    "name": "A Message",
+    "steam_id": 1991649147,
+    "module_id": "AMessageForTheReader",
+    "text": "I’m forwarding you a message. Like, literally."
   },
   {
     "name": "A Mistake",
@@ -220,6 +238,12 @@
     "steam_id": 1740805891,
     "module_id": "babaIsWho",
     "text": "Hey, I've heard of this game."
+  },
+  {
+    "name": "Baccarat",
+    "steam_id": 1997030889,
+    "module_id": "baccarat",
+    "text": "Baccarat may be a favorite table game among high rollers, but I’ll bet none of them have ever played for stakes as high as this."
   },
   {
     "name": "Backgrounds",
@@ -382,6 +406,12 @@
     "steam_id": 1824146763,
     "module_id": "blockStacks",
     "text": "I guess dreams can come true, because this module literally came out of one of my dreams."
+  },
+  {
+    "name": "Blue",
+    "steam_id": 2010612199,
+    "module_id": "BlueNeedy",
+    "text": "...Blue?"
   },
   {
     "name": "Blue Arrows",
@@ -912,6 +942,12 @@
     "text": "And here's the Countdown clock..."
   },
   {
+    "name": "The Cruel Code",
+    "steam_id": 1986921407,
+    "module_id": "TheCruelCode",
+    "text": "Why do we now have three codes? Which should I type in? WHAT IS GOING ON? AAAAAAAAAAaaaaaaaaaaaaaaaaaaaaa"
+  },
+  {
     "name": "Cruel Digital Root",
     "steam_id": 1807448779,
     "module_id": "cruelDigitalRootModule",
@@ -1056,6 +1092,12 @@
     "text": "Terror has arrived in town, for some of your digits... are actually a sign!!"
   },
   {
+    "name": "Dimension Disruption",
+    "steam_id": 1988104942,
+    "module_id": "dimensionDisruption",
+    "text": "“Uh… Jim! The guy who makes the icons for us suddenly got into our warehouse!”"
+  },
+  {
     "name": "Discolored Squares",
     "steam_id": 805590147,
     "module_id": "DiscoloredSquaresModule",
@@ -1132,6 +1174,12 @@
     "steam_id": 1978024508,
     "module_id": "DrDoctorModule",
     "text": "*coughs* Since when can a bomb give me a prescription?!?"
+  },
+  {
+    "name": "Dungeon",
+    "steam_id": 1992883318,
+    "module_id": "dungeon",
+    "text": "*Rolls for initiative*"
   },
   {
     "name": "Echolocation",
@@ -1300,6 +1348,12 @@
     "steam_id": 1768537189,
     "module_id": "DateFinder",
     "text": "Have you ever wondered what day was December 25, 1862? Or if the 27th of June, 2491 is gonna be a Friday or a Saturday? Yeah, me neither..."
+  },
+  {
+    "name": "Five Letter Words",
+    "steam_id": 2007060295,
+    "module_id": "FiveLetterWordsAgain",
+    "text": "Rules are quite basic."
   },
   {
     "name": "FizzBuzz",
@@ -1506,6 +1560,12 @@
     "text": "(Garfield Kart 2 (in HD) coming out this fall!) This is why you never EVER tell anyone you'll make a module if they make a manual for it."
   },
   {
+    "name": "Gatekeeper",
+    "steam_id": 2002821871,
+    "module_id": "gatekeeper",
+    "text": "\"Tell me the password.\", the Gatekeeper said."
+  },
+  {
     "name": "Genetic Sequence",
     "steam_id": 1647242712,
     "module_id": "geneticSequence",
@@ -1590,16 +1650,22 @@
     "text": "I hate going to the grocery store, it is so boring!"
   },
   {
-    "name": "Gyphons",
-    "steam_id": 1725656822,
-    "module_id": "gryphons",
-    "text": "Gryphons are majestic, powerful, and cuddly. This one has an explosive taste in fashion."
+    "name": "Guess Who?",
+    "steam_id": 1997327546,
+    "module_id": "GuessWhoThisIs",
+    "text": "So you’re telling me, after making 100s of ridiculuous module requests like a Vault, a Safe, a Sun, and a Moon... you’re asking me to make Guess Who? Guess who’s not making your mod? NOT ME! Because I made it into reality. Peace!"
   },
   {
     "name": "Guitar Chords",
     "steam_id": 1410652177,
     "module_id": "guitarChords",
     "text": "You hum it, I'll play it."
+  },
+  {
+    "name": "Gyphons",
+    "steam_id": 1725656822,
+    "module_id": "gryphons",
+    "text": "Gryphons are majestic, powerful, and cuddly. This one has an explosive taste in fashion."
   },
   {
     "name": "The Hangover",
@@ -1648,6 +1714,12 @@
     "steam_id": 1704241655,
     "module_id": "lgndHiddenColors",
     "text": "Some things are just hidden in plain sight."
+  },
+  {
+    "name": "The Hidden Value",
+    "steam_id": 2009836620,
+    "module_id": "theHiddenValue",
+    "text": "Okay, there's a plate with a black screen and... nothing's on it."
   },
   {
     "name": "Hide and Seek",
@@ -1974,6 +2046,12 @@
     "text": "I haven't thought of anything yet..."
   },
   {
+    "name": "Light Bulbs",
+    "steam_id": 2004382736,
+    "module_id": "LightBulbs",
+    "text": "These things don't even glow!"
+  },
+  {
     "name": "Light Cycle",
     "steam_id": 848986128,
     "module_id": "LightCycleModule",
@@ -2008,6 +2086,12 @@
     "steam_id": 743638627,
     "module_id": "Listening",
     "text": "\"Why did we send a deaf person to defuse a bomb?\" - Person who is no longer alive."
+  },
+  {
+    "name": "Lockpick Maze",
+    "steam_id": 1988702621,
+    "module_id": "KritLockpickMaze",
+    "text": "The only time you're legally allowed to pick a lock is if you're defusing a bomb... I hope..."
   },
   {
     "name": "Logic",
@@ -2230,6 +2314,12 @@
     "steam_id": 1648789362,
     "module_id": "KritMicroModules",
     "text": "Does this bomb look smaller to you? Wait... Why is it mounted on a bigger bomb?"
+  },  
+  {
+    "name": "Microphone",
+    "steam_id": 1986060019,
+    "module_id": "Microphone",
+    "text": "Shhhh, it can hear us."
   },
   {
     "name": "Mineseeker",
@@ -2586,6 +2676,12 @@
     "text": "Fortunately this password doesn't seem to meet standard government security requirements: 22 characters, mixed case, numbers in random order without any palindromes above length 3."
   },
   {
+    "name": "Password Generator",
+    "steam_id": 1996258088,
+    "module_id": "pwGenerator",
+    "text": "Remember those useless and unnecessary password restrictions? 7355608 is much simpler and much more convenient."
+  },
+  {
     "name": "Pattern Cube",
     "steam_id": 1453622997,
     "module_id": "PatternCubeModule",
@@ -2832,6 +2928,12 @@
     "text": "No. This is not Recordered Keys. This is a glockenspiel."
   },
   {
+    "name": "Red",
+    "steam_id": 2010612199,
+    "module_id": "RedNeedy",
+    "text": "...Red?"
+  },
+  {
     "name": "Red Arrows",
     "steam_id": 1757530392,
     "module_id": "redArrowsModule",
@@ -2885,12 +2987,12 @@
     "module_id": "retirement",
     "text": "Time to spend some time with your remaining limbs following far too many explosions."
   },
-  /**{
+  {
     "name": "Reverse Alphabetize",
-    "steam_id": 1817669442,
+    "steam_id": 2000272332,
     "module_id": "ReverseAlphabetize",
     "text": "You know the alphabet, right? Dvoo, tvg ivzwb gl ovzim rg ztzrm!"
-  },*/
+  },
   {
     "name": "Reverse Morse",
     "steam_id": 1490029772,
@@ -3048,6 +3150,12 @@
     "text": "Modules based on card games seem to be a thing now."
   },
   {
+    "name": "Settlers of KTaNE",
+    "steam_id": 2007906077,
+    "module_id": "SettlersOfKTaNE",
+    "text": "Something something, wood for sheep."
+  },
+  {
     "name": "Seven Choose Four",
     "steam_id": 1916614873,
     "module_id": "sevenChooseFour",
@@ -3094,6 +3202,12 @@
     "steam_id": 1512556237,
     "module_id": "Signals",
     "text": "Do you know what a camelback looks like?"
+  },
+  {
+    "name": "Silhouettes",
+    "steam_id": 1991432797,
+    "module_id": "silhouettes",
+    "text": "Who turned out the lights?"
   },
   {
     "name": "Silly Slots",
@@ -3720,6 +3834,12 @@
     "text": "It doesn't play that fair anymore."
   },
   {
+    "name": "Unicode",
+    "steam_id": 1994700764,
+    "module_id": "UnicodeModule",
+    "text": "What is it? And why do we need it?"
+  },
+  {
     "name": "Unordered Keys",
     "steam_id": 1763726416,
     "module_id": "unorderedKeys",
@@ -3742,6 +3862,12 @@
     "steam_id": 1414215029,
     "module_id": "USA",
     "text": "The United States of America: where easy video games come from."
+  },
+  {
+    "name": "V",
+    "steam_id": 1991006164,
+    "module_id": "V",
+    "text": "I can assure you, I mean you no harm."
   },
   {
     "name": "Valves",
@@ -3844,6 +3970,12 @@
     "steam_id": 777164508,
     "module_id": "monsplodeWho",
     "text": "Are you still a fan of some animated series from your childhood? It looks like you stumbled upon another fan."
+  },
+  {
+    "name": "Widdershins",
+    "steam_id": 1986174880,
+    "module_id": "widdershins",
+    "text": "The superior way to say (anti) (contra) counter-clockwise!"
   },
   {
     "name": "Wingdings",
