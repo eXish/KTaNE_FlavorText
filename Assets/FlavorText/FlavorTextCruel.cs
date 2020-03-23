@@ -100,17 +100,16 @@ public class FlavorTextCruel : MonoBehaviour
                 moduleIds.Add(textOptions[i].steam_id);
             }
         }
-        
-		if (textOption.text == "And here's the Countdown clock...")
-		{
-			Debug.LogFormat("[Flavor Text #{0}] It's looking for (Cruel) Countdown.", _moduleId);
-		}
-		else
-		{
-			Debug.LogFormat("[Flavor Text #{0}] It's looking for {1}.", _moduleId, textOption.name);
-		}
 		
         Debug.LogFormat("[Flavor Text EX #{0}] It said: {1}", _moduleId, textOption.text);
+        if (textOption.text == "And here's the Countdown clock...")
+        {
+            Debug.LogFormat("[Flavor Text EX #{0}] It's looking for (Cruel) Countdown.", _moduleId);
+        }
+        else
+        {
+            Debug.LogFormat("[Flavor Text EX #{0}] It's looking for {1}.", _moduleId, textOption.name);
+        }
         Debug.LogFormat("[Flavor Text EX #{0}] It offered you a choice. ({1})", _moduleId, choice);
     }
     

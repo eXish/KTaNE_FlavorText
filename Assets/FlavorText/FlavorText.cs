@@ -155,4 +155,17 @@ public class FlavorText : MonoBehaviour
             yield break;
         }
     }
+
+    IEnumerator TwitchHandleForcedSolve()
+    {
+        if (moduleNames.Contains(textOption.name) ||
+                (textOption.name == "The Stare" && starePresent) || beSpecial && (moduleNames.Contains("Countdown") || moduleNames.Contains("Cruel Countdown"))){
+            buttons[1].OnInteract();
+        }
+        else
+        {
+            buttons[0].OnInteract();
+        }
+        yield return new WaitForSeconds(0.1f);
+    }
 }
