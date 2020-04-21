@@ -22,6 +22,8 @@ public class FlavorTextCruel : MonoBehaviour
     List<FlavorTextOption> textOptions;
     FlavorTextOption textOption;
     bool isActive = false;
+    int[] corrAnswers1;
+    int[] corrAnswers2;
     int[] buttonNumbers;
     bool[] buttonStates;
     List<int> moduleIds;
@@ -63,6 +65,8 @@ public class FlavorTextCruel : MonoBehaviour
         {
             leds[i].material = off;
         }
+        corrAnswers1 = new[] { -1, -1, -1, -1 };
+        corrAnswers2 = new[] { -1, -1, -1, -1 };
         buttonStates = new[] {false, false, false, false};
         buttonNumbers = new[] {0, 0, 0, 0};
         buttonNumbers[0] = UnityEngine.Random.Range(0, 10);
@@ -89,7 +93,7 @@ public class FlavorTextCruel : MonoBehaviour
             TextMesh buttonText = buttons[i].GetComponentInChildren<TextMesh>();
             buttonText.text = label;
         }
-        
+
         textOption = textOptions[UnityEngine.Random.Range(0, textOptions.Count)];
         textDisplay.text = textOption.text;
         moduleIds = new List<int>();
@@ -105,17 +109,77 @@ public class FlavorTextCruel : MonoBehaviour
         if (textOption.text == "And here's the Countdown clock...")
         {
             Debug.LogFormat("[Flavor Text EX #{0}] It's looking for (Cruel) Countdown.", _moduleId);
+            string log1 = "";
+            string log2 = "";
+            for (int i = 0; i < 2; i++)
+            {
+                int ct = 0;
+                if (i == 0)
+                {
+                    for (int j = 0; j < textOptions[145].steam_id.ToString().Length; j++)
+                    {
+                        if (buttonNumbers.Contains(int.Parse(textOptions[145].steam_id.ToString().ElementAt(j) + "")) && !corrAnswers1.Contains(int.Parse(textOptions[145].steam_id.ToString().ElementAt(j) + "")))
+                        {
+                            corrAnswers1[ct] = int.Parse(textOptions[145].steam_id.ToString().ElementAt(j) + "");
+                            ct++;
+                        }
+                    }
+                    for (int j = 0; j < 4; j++)
+                    {
+                        if (j >= ct)
+                            log1 += "#";
+                        else
+                            log1 += corrAnswers1[j];
+                    }
+                }
+                else if (i == 1)
+                {
+                    for (int j = 0; j < textOptions[151].steam_id.ToString().Length; j++)
+                    {
+                        if (buttonNumbers.Contains(int.Parse(textOptions[151].steam_id.ToString().ElementAt(j) + "")) && !corrAnswers2.Contains(int.Parse(textOptions[151].steam_id.ToString().ElementAt(j) + "")))
+                        {
+                            corrAnswers2[ct] = int.Parse(textOptions[151].steam_id.ToString().ElementAt(j) + "");
+                            ct++;
+                        }
+                    }
+                    for (int j = 0; j < 4; j++)
+                    {
+                        if (j >= ct)
+                            log2 += "#";
+                        else
+                            log2 += corrAnswers2[j];
+                    }
+                }
+            }
+            Debug.LogFormat("[Flavor Text EX #{0}] It offered you a choice of {1}. It is looking for {2} or {3}.", _moduleId, choice, log1, log2);
         }
         else
         {
             Debug.LogFormat("[Flavor Text EX #{0}] It's looking for {1}.", _moduleId, textOption.name);
+            int ct = 0;
+            for (int j = 0; j < textOption.steam_id.ToString().Length; j++)
+            {
+                if (buttonNumbers.Contains(int.Parse(textOption.steam_id.ToString().ElementAt(j) + "")) && !corrAnswers1.Contains(int.Parse(textOption.steam_id.ToString().ElementAt(j) + "")))
+                {
+                    corrAnswers1[ct] = int.Parse(textOption.steam_id.ToString().ElementAt(j) + "");
+                    ct++;
+                }
+            }
+            string log = "";
+            for (int j = 0; j < 4; j++)
+            {
+                if (j >= ct)
+                    log += "#";
+                else
+                    log += corrAnswers1[j];
+            }
+            Debug.LogFormat("[Flavor Text EX #{0}] It offered you a choice of {1}. It is looking for {2}.", _moduleId, choice, log);
         }
-        Debug.LogFormat("[Flavor Text EX #{0}] It offered you a choice. ({1})", _moduleId, choice);
     }
     
     void OnPress(int pressedButton)
     {
-        GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
+        GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, buttons[pressedButton].transform);
         GetComponent<KMSelectable>().AddInteractionPunch();
 
         if (isActive)
@@ -225,108 +289,137 @@ public class FlavorTextCruel : MonoBehaviour
         }
     }
 
+    // twitch plays
     #pragma warning disable 414
     private readonly string TwitchHelpMessage = @"!{0} position/pos/p 1234 [Presses the buttons from top to bottom] | !{0} label/lab/l 6805 [Presses the buttons labelled '6','8','0', then '5']";
     #pragma warning restore 414
-
     IEnumerator ProcessTwitchCommand(string command)
     {
         string[] parameters = command.Split(' ');
         if (Regex.IsMatch(parameters[0], @"^\s*position\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) || Regex.IsMatch(parameters[0], @"^\s*pos\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) || Regex.IsMatch(parameters[0], @"^\s*p\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
-            if(parameters.Length == 2)
+            yield return null;
+            if (parameters.Length > 2)
+            {
+                yield return "sendtochaterror Too many parameters!";
+            }
+            else if (parameters.Length == 2)
             {
                 if (cmdIsValid1(parameters[1]))
                 {
-                    yield return null;
                     foreach (char c in parameters[1])
                     {
-                        if (c.Equals('1'))
-                        {
-                            yield return new[] { buttons[0] };
-                        }
-                        else if (c.Equals('2'))
-                        {
-                            yield return new[] { buttons[1] };
-                        }
-                        else if (c.Equals('3'))
-                        {
-                            yield return new[] { buttons[2] };
-                        }
-                        else if (c.Equals('4'))
-                        {
-                            yield return new[] { buttons[3] };
-                        }
-                        yield return new WaitForSeconds(.1f);
+                        int temp = int.Parse(c+"");
+                        buttons[temp-1].OnInteract();
+                        yield return new WaitForSeconds(0.1f);
                     }
                 }
+                else
+                {
+                    yield return "sendtochaterror One or more of the specified positions '" + parameters[1] + "' are invalid!";
+                }
+            }
+            else if (parameters.Length == 1)
+            {
+                yield return "sendtochaterror Please specify the positions of the buttons you wish to press!";
             }
             yield break;
         }
         if (Regex.IsMatch(parameters[0], @"^\s*label\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) || Regex.IsMatch(parameters[0], @"^\s*lab\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) || Regex.IsMatch(parameters[0], @"^\s*l\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
-            if(parameters.Length == 2)
+            yield return null;
+            if (parameters.Length > 2)
+            {
+                yield return "sendtochaterror Too many parameters!";
+            }
+            else if (parameters.Length == 2)
             {
                 if (cmdIsValid2(parameters[1]))
                 {
-                    yield return null;
                     foreach (char c in parameters[1])
                     {
-                        if (c.Equals('1'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(1));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('2'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(2));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('3'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(3));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('4'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(4));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('5'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(5));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('6'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(6));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('7'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(7));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('8'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(8));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('9'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(9));
-                            yield return new[] { buttons[index] };
-                        }
-                        else if (c.Equals('0'))
-                        {
-                            int index = Array.FindIndex(buttonNumbers, x => x.Equals(0));
-                            yield return new[] { buttons[index] };
-                        }
-                        yield return new WaitForSeconds(.1f);
+                        int temp = int.Parse(c+"");
+                        buttons[Array.FindIndex(buttonNumbers, x => x.Equals(temp))].OnInteract();
+                        yield return new WaitForSeconds(0.1f);
                     }
                 }
-            }  
+                else
+                {
+                    yield return "sendtochaterror One or more of the specified labels '" + parameters[1] + "' are invalid!";
+                }
+            }
+            else if (parameters.Length == 1)
+            {
+                yield return "sendtochaterror Please specify the labels of the buttons you wish to press!";
+            }
             yield break;
+        }
+    }
+
+    IEnumerator TwitchHandleForcedSolve()
+    {
+        while (!isActive) { yield return true; yield return new WaitForSeconds(0.1f); }
+        int start = stage;
+        for (int i = start; i < maxStageAmount; i++)
+        {
+            int rando = UnityEngine.Random.Range(0, 2);
+            for (int j = 0; j < 4; j++)
+            {
+                for (int g = 0; g < 4; g++)
+                {
+                    if (!buttonStates[g])
+                    {
+                        if (textOption.text == "And here's the Countdown clock...")
+                        {
+                            if (rando == 0)
+                            {
+                                if (corrAnswers1[j] == -1)
+                                {
+                                    buttons[g].OnInteract();
+                                    yield return new WaitForSeconds(0.1f);
+                                    break;
+                                }
+                                else if (corrAnswers1[j] == buttonNumbers[g])
+                                {
+                                    buttons[g].OnInteract();
+                                    yield return new WaitForSeconds(0.1f);
+                                    break;
+                                }
+                            }
+                            else if (rando == 1)
+                            {
+                                if (corrAnswers2[j] == -1)
+                                {
+                                    buttons[g].OnInteract();
+                                    yield return new WaitForSeconds(0.1f);
+                                    break;
+                                }
+                                else if (corrAnswers2[j] == buttonNumbers[g])
+                                {
+                                    buttons[g].OnInteract();
+                                    yield return new WaitForSeconds(0.1f);
+                                    break;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            if (corrAnswers1[j] == -1)
+                            {
+                                buttons[g].OnInteract();
+                                yield return new WaitForSeconds(0.1f);
+                                break;
+                            }
+                            else if (corrAnswers1[j] == buttonNumbers[g])
+                            {
+                                buttons[g].OnInteract();
+                                yield return new WaitForSeconds(0.1f);
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

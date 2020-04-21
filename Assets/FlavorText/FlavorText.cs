@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using System;
-using System.Text.RegularExpressions;
 
 public class FlavorTextOption
 {
@@ -80,7 +79,15 @@ public class FlavorText : MonoBehaviour
             Debug.LogFormat("[Flavor Text #{0}] It's looking for {1}.", _moduleId, textOption.name);
         }
         Debug.LogFormat("[Flavor Text #{0}] It said: {1}", _moduleId, textOption.text);
-        Debug.LogFormat("[Flavor Text #{0}] Do you accept it?", _moduleId);
+        if (moduleNames.Contains(textOption.name) ||
+                (textOption.name == "The Stare" && starePresent) || beSpecial && (moduleNames.Contains("Countdown") || moduleNames.Contains("Cruel Countdown")))
+        {
+            Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should...)", _moduleId);
+        }
+        else
+        {
+            Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should'nt...)", _moduleId);
+        }
         for (int i = 0; i < buttons.Count(); i++)
         {
             int j = i;
@@ -106,12 +113,20 @@ public class FlavorText : MonoBehaviour
             Debug.LogFormat("[Flavor Text #{0}] It's looking for {1}.", _moduleId, textOption.name);
         }
         Debug.LogFormat("[Flavor Text #{0}] It said: {1}", _moduleId, textOption.text);
-        Debug.LogFormat("[Flavor Text #{0}] Do you accept it?", _moduleId);
+        if (moduleNames.Contains(textOption.name) ||
+                (textOption.name == "The Stare" && starePresent) || beSpecial && (moduleNames.Contains("Countdown") || moduleNames.Contains("Cruel Countdown")))
+        {
+            Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should...)", _moduleId);
+        }
+        else
+        {
+            Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should not...)", _moduleId);
+        }
     }
 
     void OnPress(int pressedButton)
     {
-        GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
+        GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, buttons[pressedButton].transform);
         GetComponent<KMSelectable>().AddInteractionPunch();
 
         if (isActive)
@@ -139,9 +154,33 @@ public class FlavorText : MonoBehaviour
     #pragma warning disable 414
     private readonly string TwitchHelpMessage = @"!{0} yes/y [Presses the yes button] | !{0} no/n [Presses the no button]";
     #pragma warning restore 414
-
     IEnumerator ProcessTwitchCommand(string command)
     {
+        string[] parameters = command.Split(' ');
+        if (Regex.IsMatch(parameters[0], @"^\s*press\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+        {
+            yield return null;
+            if (parameters.Length > 2)
+            {
+                yield return "sendtochaterror Too many parameters!";
+            }
+            else if (parameters.Length == 2)
+            {
+                if (parameters[1].EqualsIgnoreCase("yes") || parameters[1].EqualsIgnoreCase("y"))
+                {
+                    buttons[1].OnInteract();
+                }
+                else if (parameters[1].EqualsIgnoreCase("no") || parameters[1].EqualsIgnoreCase("n"))
+                {
+                    buttons[0].OnInteract();
+                }
+            }
+            else if (parameters.Length == 1)
+            {
+                yield return "sendtochaterror Please specify the button to press!";
+            }
+            yield break;
+        }
         if (Regex.IsMatch(command, @"^\s*yes\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant) || Regex.IsMatch(command, @"^\s*y\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
             yield return null;
@@ -166,6 +205,6 @@ public class FlavorText : MonoBehaviour
         {
             buttons[0].OnInteract();
         }
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.001f);
     }
 }
