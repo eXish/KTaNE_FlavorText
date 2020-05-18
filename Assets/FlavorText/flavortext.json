@@ -6,6 +6,12 @@
     "text": "But how will you relay this information in between you and the defuser?"
   },
   {
+    "name": "...?",
+    "steam_id": 1917177087,
+    "module_id": "punctuationMarks",
+    "text": "“Memory… is the diary we all keep with us.” ~Oscar Wilde"
+  },
+  {
     "name": "14",
     "steam_id": 1940043870,
     "module_id": "14",
@@ -34,6 +40,12 @@
     "steam_id": 752338147,
     "module_id": "spwiz3DMaze",
     "text": "You are in a maze of twisty passages, all alike. Exits are to the north, south, east, and west."
+  },
+  {
+    "name": "1D Maze",
+    "steam_id": 2035382736,
+    "module_id": "OneDimensionalMaze",
+    "text": "Let’s take this to a previous dimension."
   },
   {
     "name": "3D Tunnels",
@@ -82,6 +94,12 @@
     "steam_id": 806188270,
     "module_id": "AdjacentLettersModule",
     "text": "UP, down, left, right, UP, down, left, right...!"
+  },
+  {
+    "name": "Abstract Sequences",
+    "steam_id": 2019102639,
+    "module_id": "abstractSequences",
+    "text": "In art, “abstract“ pieces are often hard to percieve. In computer science, abstractions are made to accomplish a task. So, why not have both on a bomb?"
   },
   {
     "name": "Adventure Game",
@@ -198,6 +216,12 @@
     "text": "füñ"
   },
   {
+    "name": "Answer to...",
+    "steam_id": 2022038157,
+    "module_id": "answerTo",
+    "text": "You think you know the answers to a lot of things? Well, think again."
+  },
+  {
     "name": "Answering Questions",
     "steam_id": 743198269,
     "module_id": "NeedyVentV2",
@@ -214,6 +238,12 @@
     "steam_id": 1731230630,
     "module_id": "arithmelogic",
     "text": "(Math is fun) ^ (Bomb is armed) = True."
+  },
+  {
+    "name": "Art Appreciation",
+    "steam_id": 2022692764,
+    "module_id": "AppreciateArt",
+    "text": "“This is art. Please appreciate it.“"
   },
   {
     "name": "ASCII Art",
@@ -274,6 +304,12 @@
     "steam_id": 1963535165,
     "module_id": "bamboozlingTimeKeeper",
     "text": "I needed a few more minutes, not just a few more seconds!"
+  },
+  {
+    "name": "Banana",
+    "steam_id": 2021101749,
+    "module_id": "bananaNeedy",
+    "text": "It's a typo. I swear!"
   },
   {
     "name": "Bartending",
@@ -462,6 +498,12 @@
     "text": "Whoever designs these modules must really like Boolean logic."
   },
   {
+    "name": "Boolean Math",
+    "steam_id": 2023360785,
+    "module_id": "boolMathNeedy",
+    "text": "I love sitting by the bool with a nice cold glass of lemandade."
+  },
+  {
     "name": "Boolean Maze",
     "steam_id": 1515728184,
     "module_id": "boolMaze",
@@ -513,19 +555,7 @@
     "name": "Brainf---",
     "steam_id": 1972281011,
     "module_id": "brainf",
-    "text": "-[--->+<]>---.[------>+<
-]>--.--[--->+<]>-.+++[->
-+++<]>.-.-[--->+<]>-.[--
->+++<]>+.+.--[--->++<]
->.++[->+++<]>.+++++++
-++.+++.[-->+++++<]>++
-+.+[----->+<]>.----.+++.-
--------.-[--->+<]>-.[->++
-+<]>++.-.+++.-[--->+<]>
--.++[--->++<]>.----------
--.+++++++++++++.------
--.--[--->+<]>--.[->+++<]
->++.++++++.--.[->+++<]>-."
+    "text": "-[--->+<]>---.[------>+<]>--.--[--->+<]>-.+++[->+++<]>.-.-[--->+<]>-.[-->+++<]>+.+.--[--->++<]>.++[->+++<]>.+++++++++.+++.[-->+++++<]>+++.+[----->+<]>.----.+++.--------.-[--->+<]>-.[->+++<]>++.-.+++.-[--->+<]>-.++[--->++<]>.-----------.+++++++++++++.-------.--[--->+<]>--.[->+++<]>++.++++++.--.[->+++<]>-."
   },
   {
     "name": "British Slang",
@@ -659,6 +689,13 @@
     "module_id": "CheapCheckoutModule",
     "text": "Who in the world is purchasing something at a time like this?"
   },
+  {
+    "name": "Cheat Checkout",
+    "steam_id": 2025174867,
+    "module_id": "kataCheatCheckout",
+    "text": "The hacking service business is not that easy. Also, be careful with every transaction."
+  },
+
   {
     "name": "Cheep Checkout",
     "steam_id": 1912952468,
@@ -930,6 +967,12 @@
     "text": "Let there be life!"
   },
   {
+    "name": "Cruel Boolean Math",
+    "steam_id": 2023424497,
+    "module_id": "cruelBoolMathNeedy",
+    "text": "43 ⊻ 110"
+  },
+  {
     "name": "Cruel Boolean Maze",
     "steam_id": 1911110811,
     "module_id": "boolMazeCruel",
@@ -952,6 +995,12 @@
     "steam_id": 1807448779,
     "module_id": "cruelDigitalRootModule",
     "text": "I just knew it was too easy!"
+  },
+  {
+    "name": "Cruel Garfield Kart",
+    "steam_id": 2031954797,
+    "module_id": "CruelGarfieldKart",
+    "text": "Come on in come to the place where fun never ends; Come on in and join us for Garfield and Friends!"
   },
   {
     "name": "Cruel Keypads",
@@ -1098,6 +1147,12 @@
     "text": "“Uh… Jim! The guy who makes the icons for us suddenly got into our warehouse!”"
   },
   {
+    "name": "Directional Button",
+    "steam_id": 2010802460,
+    "module_id": "directionalButton",
+    "text": "This is the one time a Roblox knockoff is good."
+  },
+  {
     "name": "Discolored Squares",
     "steam_id": 805590147,
     "module_id": "DiscoloredSquaresModule",
@@ -1180,6 +1235,12 @@
     "steam_id": 1992883318,
     "module_id": "dungeon",
     "text": "*Rolls for initiative*"
+  },
+  {
+    "name": "Dungeon 2nd Floor",
+    "steam_id": 2016283264,
+    "module_id": "dungeon2",
+    "text": "“Hey guys, I found a map! Maybe we can move a little easier now!“"
   },
   {
     "name": "Echolocation",
@@ -1272,10 +1333,22 @@
     "text": "All of a sudden \"Blue Screen of Death\" takes on a whole new meaning."
   },
   {
+    "name": "Etterna",
+    "steam_id": 2032943058,
+    "module_id": "etterna",
+    "text": "Why does this version of “Ideal Sync ogg“ require you to hit 96ths notes in time?"
+  },
+  {
     "name": "European Travel",
     "steam_id": 1326285431,
     "module_id": "europeanTravel",
     "text": "All aboard!"
+  },
+  {
+    "name": "Exoplanets",
+    "steam_id": 2041536146,
+    "module_id": "exoplanets",
+    "text": "Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’, Balenci’."
   },
   {
     "name": "Extended Password",
@@ -1312,6 +1385,12 @@
     "steam_id": 1880521679,
     "module_id": "faultyrgbMaze",
     "text": "Now you too can experience... wait, where am I?"
+  },
+  {
+    "name": "Faulty Seven Segment Displays",
+    "steam_id": 1940164898,
+    "module_id": "faulty7SegmentDisplays",
+    "text": "(I'd imagine someone getting bored at making hard modules and decided to make a very easy module instead.) Great. Someone dropped this out of nowhere and screwed up the wiring yet again."
   },
   {
     "name": "Faulty Sink",
@@ -1404,6 +1483,12 @@
     "text": "You think bomb defusal is for babies? What kind of monster are you?!"
   },
   {
+    "name": "Forget Infinity",
+    "steam_id": 1940164898,
+    "module_id": "forgetInfinity",
+    "text": "Everyone forgot about what this module originally looked like until they saw 5 digits per stage and yelled at the creator for trying to make this mess. Now someone else stepped in and what price did they pay? Infinite amounts."
+  },
+  {
     "name": "Follow the Leader",
     "steam_id": 783004078,
     "module_id": "FollowTheLeaderModule",
@@ -1476,6 +1561,12 @@
     "text": "No pineapple color :c"
   },
   {
+    "name": "Forget The Colors",
+    "steam_id": 2026509440,
+    "module_id": "ForgetTheColors",
+    "text": "Since when was trigonometry relevant to colors?"
+  },
+  {
     "name": "Forget Them All",
     "steam_id": 1760215002,
     "module_id": "forgetThemAll",
@@ -1528,6 +1619,12 @@
     "steam_id": 1582752899,
     "module_id": "qFunctions",
     "text": "How in the heck do you get 8 from 1 and 3?!"
+  },
+  {
+    "name": "Funny Numbers",
+    "steam_id": 2038237924,
+    "module_id": "FunnyNumbers",
+    "text": "Weed chungus."
   },
   {
     "name": "Gadgetron Vendor",
@@ -1974,6 +2071,12 @@
     "text": "Roses are red, violets are blue; but the hard part here is not the Sudoku."
   },
   {
+    "name": "Label Priorities",
+    "steam_id": 2039393391,
+    "module_id": "LabelPrioritiesModule",
+    "text": "[Insert obligatory WOF joke]"
+  },
+  {
     "name": "The Labyrinth",
     "steam_id": 1594266521,
     "module_id": "labyrinth",
@@ -2322,6 +2425,12 @@
     "text": "Shhhh, it can hear us."
   },
   {
+    "name": "Minecraft Cipher",
+    "steam_id": 2025146518,
+    "module_id": "minecraftCipher",
+    "text": "Creeper? AWW MAN! So we back in the mine..."
+  },
+  {
     "name": "Mineseeker",
     "steam_id": 1422870701,
     "module_id": "mineseeker",
@@ -2332,6 +2441,12 @@
     "steam_id": 945682169,
     "module_id": "MinesweeperModule",
     "text": "Somehow Minesweeper on a bomb feels oddly redundant."
+  },
+  {
+    "name": "Misery Squares",
+    "steam_id": 2012092376,
+    "module_id": "SquaresOfMisery",
+    "text": "May your luck land you on a good fortune. Prepare for everything."
   },
   {
     "name": "Misordered Keys",
@@ -2550,6 +2665,85 @@
     "text": "❖"
   },
   {
+    "name": "Not the Button",
+    "steam_id": 2003251353,
+    "module_id": "NotButton",
+    "text": "You might think that pressing a button is pretty straightforward. That’s the kind of thinking that gets people exploded. "
+  },
+  {
+    "name": "Not Capacitor Discharge",
+    "steam_id": 2003251353,
+    "module_id": "NotCapacitorDischarge",
+    "text": "I’m going to guess that this is just meant to fill in the gaps, because otherwise this is some shoddy modification work. "
+  },
+  {
+    "name": "Not Complicated Wires",
+    "steam_id": 2003251353,
+    "module_id": "NotComplicatedWires",
+    "text": "These wires are just like the others. They have stripes! That makes them exactly the same. The good news is that we’ve found a stupid set of trickeries on what to do about it! Maybe too stupid... "
+  },
+  {
+    "name": "Not Keypad",
+    "steam_id": 2003251353,
+    "module_id": "NotKeypad",
+    "text": "I’m not sure what these charts are, but I suspect they have nothing to do with being good. "
+  },
+  {
+    "name": "Not Maze",
+    "steam_id": 2003251353,
+    "module_id": "NotMaze",
+    "text": "This seems to be some kind of picture matching puzzle, probably stolen off of another module. "
+  },
+  {
+    "name": "Not Memory",
+    "steam_id": 2003251353,
+    "module_id": "NotMemory",
+    "text": "Memory is a annoying module but so is everything else on the bomb itself, so does it matter? "
+  },
+  {
+    "name": "Not Morse Code",
+    "steam_id": 2003251353,
+    "module_id": "NotMorseCode",
+    "text": "An antiquated gimmick of module complication? What next? At least it’s still kinda like Morse Code, so don’t sweat it too much. "
+  },
+  {
+    "name": "Not Password",
+    "steam_id": 2003251353,
+    "module_id": "NotPassword",
+    "text": "Unfortunately this password doesn’t seem to meet standard KTaNE password standards: 25 letters, mixed up, spell a word with the length of 5 letters, module defused, happy fun time for all. "
+  },
+  {
+    "name": "Not Simaze",
+    "steam_id": 2003251353,
+    "module_id": "NotSimaze",
+    "text": "This is like one of those modules you played with as a defuser where you have to distort the pattern that appears, except this one is a knockoff that was probably made by a person with very little common sense. "
+  },
+  {
+    "name": "Not Venting Gas",
+    "steam_id": 2003251353,
+    "module_id": "NotVentingGas",
+    "text": "Module hacking is hard work! Well, it usually is. This job could probably be performed by a simple drinking man copying and pasting the same page over and over again. "
+  },
+  {
+    "name": "Not Who’s on First",
+    "steam_id": 2003251353,
+    "module_id": "NotWhosOnFirst",
+    "text": "This module is like something out of the sewer system from a glitter factory, which is funny because it’s actually “pretty crap”. I’ll keep this brief, as words only make me write this thing longer. "
+  },
+  {
+    "name": "Not Wire Sequence",
+    "steam_id": 2003251353,
+    "module_id": "NotWireSequence",
+    "text": "It’s hard to say how this manual works. The writing is somewhat clear, but there must have been an easier way to manage twelve wires. "
+  },
+  {
+    "name": "Not Wiresword",
+    "steam_id": 2003251353,
+    "module_id": "NotWiresword",
+    "text": "Wires are the main features of KTaNE! Wait, no, Simon is the norm. Wires are more like the second or third. Morse? No matter..."
+  },
+
+  {
     "name": "The Number",
     "steam_id": 1360126644,
     "module_id": "theNumber",
@@ -2572,6 +2766,12 @@
     "steam_id": 1224553628,
     "module_id": "NumberPad",
     "text": "Try putting in 0000. No? Try 0001. Still not working? We might be here for a while..."
+  },
+  {
+    "name": "Numbered Buttons",
+    "steam_id": 2041162502,
+    "module_id": "numberedButtonsModule",
+    "text": "So many numbers! Yet such a simple module! And ruleseeding this will be a piece of cake! Maybe. Hooray I say! Hooray!"
   },
   {
     "name": "Numbers",
@@ -2640,6 +2840,12 @@
     "text": "If the bomb doesn't kill us a brain haemorrhage will."
   },
   {
+    "name": "osu!",
+    "steam_id": 2020119635,
+    "module_id": "osu",
+    "text": "zxzxzxzxzxzxzxzxzxzxzxzxzxzxzxzxzxz..."
+  },
+  {
     "name": "Painting",
     "steam_id": 1145292169,
     "module_id": "Painting",
@@ -2686,6 +2892,12 @@
     "steam_id": 1453622997,
     "module_id": "PatternCubeModule",
     "text": "Do I get any hint coins? Come on, it's the Dropstone 50th Anniversary!"
+  },
+  {
+    "name": "Pattern Lock",
+    "steam_id": 2024831149,
+    "module_id": "patternLock",
+    "text": "You know those weird locks people have on their phones sometimes? It’s like one of those, but more annoying."
   },
   {
     "name": "Pay Respects",
@@ -2740,6 +2952,12 @@
     "steam_id": 1627441373,
     "module_id": "pigpenRotations",
     "text": "Is that alien language or what?"
+  },
+  {
+    "name": "Placeholder Talk",
+    "steam_id": 2013982530,
+    "module_id": "placeholderTalk",
+    "text": "60% of the time, this module reminds you of the game every time."
   },
   {
     "name": "Planets",
@@ -2856,10 +3074,22 @@
     "text": "Yes, you will need a QR Code scanner here to proceed."
   },
   {
+    "name": "Quaternions",
+    "steam_id": 2017809479,
+    "module_id": "quaternions",
+    "text": "“Quaternions came from Hamilton after his really good work had been done; and, though beautifully ingenious, have been an unmixed evil to those who have touched them in any way, including Clerk Maxwell.” —William Thomson, Lord Kelvin"
+  },
+  {
     "name": "Question Mark",
     "steam_id": 1618751952,
     "module_id": "Questionmark",
     "text": "Look, someone made the lucky block from Minecraft into a module!"
+  },
+  {
+    "name": "Quick Arithmetic",
+    "steam_id": 2025078800,
+    "module_id": "QuickArithmetic",
+    "text": "We, extraordinary experts, defuse confusing, hustling, unabbrasive new games, undoubtably skilled."
   },
   {
     "name": "Quintuples",
@@ -2920,6 +3150,12 @@
     "steam_id": 1328842895,
     "module_id": "rapidButtons",
     "text": "This module really pushes my buttons. Then again, most are designed to."
+  },
+  {
+    "name": "Recolored Switches",
+    "steam_id": 2021544071,
+    "module_id": "R4YRecoloredSwitches",
+    "text": "Oh no, it's one of these module chains again.\nOh no, it's one of these module chains again.\nOh no, it's one of these module chains again."
   },
   {
     "name": "Recorded Keys",
@@ -2999,6 +3235,12 @@
     "module_id": "reverseMorse",
     "text": "It's one thing to read somebody else's Morse message. Now it's time to send your own."
   },
+  {
+    "name": "Reverse Polish Notation",
+    "steam_id": 2036170022,
+    "module_id": "revPolNot",
+    "text": "5 5+3 3+*9+"
+  },
   /**{
     "name": "Reversed Edgework",
     "steam_id": 1950730138,
@@ -3034,6 +3276,12 @@
     "steam_id": 798194678,
     "module_id": "RockPaperScissorsLizardSpockModule",
     "text": "Anecdotal evidence suggests that in the game of Rock-Paper-Scissors, players familiar with each other will tie 75 to 80% of the time due to the limited number of outcomes. Rock-Paper-Scissors-Lizard-Spock was created by Internet pioneer Sam Kass as an improvement on the classic game. All hail Sam Kass. Hail."
+  },
+  {
+    "name": "Role Reversal",
+    "steam_id": 2014025799,
+    "module_id": "roleReversal",
+    "text": "Can this be even considered a manual?"
   },
   {
     "name": "Roman Art",
@@ -3096,6 +3344,12 @@
     "text": "According to OSHA regulations, all workplaces containing hazardous materials need to be marked using the NFPA-704 standard \"Fire Diamond\" so emergency personnel can quickly identify possible hazards. Everything about that makes sense exept for the fact that it's mounted on a bomb."
   },
   {
+    "name": "The Samsung",
+    "steam_id": 2026812994,
+    "module_id": "theSamsung",
+    "text": "If you have a hard time keeping up with Apple phones and which version is which, you’ll have a horrible time with Samsung’s."
+  },
+  {
     "name": "Scalar Dials",
     "steam_id": 1966471261,
     "module_id": "scalarDials",
@@ -3144,6 +3398,12 @@
     "text": "This module demands attention from the sea - unlucky for you the bomb's bone dry."
   },
   {
+    "name": "Sequences",
+    "steam_id": 2015786272,
+    "module_id": "sequencesModule",
+    "text": "Remember kids, order does matter."
+  },
+  {
     "name": "S.E.T.",
     "steam_id": 1143024969,
     "module_id": "SetModule",
@@ -3190,6 +3450,18 @@
     "steam_id": 778458559,
     "module_id": "shapeshift",
     "text": "The concept is simple: change a shape into another shape according to certain rules. The rules, however, are not so simple."
+  },
+  {
+    "name": "Shell Game",
+    "steam_id": 2024864892,
+    "module_id": "shellGame",
+    "text": "Don’t get hustled!"
+  },
+  {
+    "name": "Shifting Maze",
+    "steam_id": 2021067737,
+    "module_id": "MazeShifting",
+    "text": "I hope RNG will be nice with this one."
   },
   {
     "name": "Shikaku",
@@ -3306,6 +3578,12 @@
     "text": "Meet Simon's needy second cousin. He's also called Simon."
   },
   {
+    "name": "Simon Stages",
+    "steam_id": 1940164898,
+    "module_id": "simonStages",
+    "text": "\"We have Simon's Stages on this bomb.\""
+  },
+  {
     "name": "Simon States",
     "steam_id": 743198269,
     "module_id": "SimonV2",
@@ -3346,6 +3624,12 @@
     "steam_id": 1422986509,
     "module_id": "simonsStar",
     "text": "Simon has given up on doing stuff and started possessing stuff instead."
+  },
+  {
+    "name": "The Simpleton",
+    "steam_id": 2012092376,
+    "module_id": "SimpleButton",
+    "text": "Did you get it? Simpleton!? Eh!? Alright, I suck at this."
   },
   {
     "name": "Sink",
@@ -3394,6 +3678,18 @@
     "steam_id": 1269639288,
     "module_id": "sonic",
     "text": "Sonic the Hedgehog was a popular 16 bit video game from 1991. What it's doing here on a bomb over 25 years later is anybody's guess..."
+  },
+  {
+    "name": "Snowflakes",
+    "steam_id": 2037486083,
+    "module_id": "snowflakes",
+    "text": "Instead of a regular winter, you get a nuclear winter. Plenty of ash and rubble to play in, but no snow."
+  },
+  {
+    "name": "Sorting",
+    "steam_id": 2014027892,
+    "module_id": "sorting",
+    "text": "What is the point of implementing a sorting algorithm if you are going to do it manually anyway?"
   },
   {
     "name": "Souvenir",
@@ -3882,6 +4178,12 @@
     "text": "Conformity is key. Patterns encourage conformity. Find the pattern, and conformity will naturally arise."
   },
   {
+    "name": "Vcrcs",
+    "steam_id": 2016916503,
+    "module_id": "VCRCS",
+    "text": "Do you see what I mean?"
+  },
+  {
     "name": "Vectors",
     "steam_id": 1825040554,
     "module_id": "vectorsModule",
@@ -3988,6 +4290,12 @@
     "steam_id": 1351937904,
     "module_id": "wire",
     "text": "Only one wire? You should probably cut it. Wait, what do those dials do?"
+  },
+  {
+    "name": "Wire Ordering",
+    "steam_id": 2016898306,
+    "module_id": "kataWireOrdering",
+    "text": "Just cut the wires in order."
   },
   {
     "name": "Wire Placement",
