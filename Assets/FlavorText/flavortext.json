@@ -215,12 +215,12 @@
     "module_id": "AnsweringCanBeFun",
     "text": "füñ"
   },
-  {
+  /**{
     "name": "Answer to...",
     "steam_id": 2022038157,
     "module_id": "answerTo",
     "text": "You think you know the answers to a lot of things? Well, think again."
-  },
+  },*/
   {
     "name": "Answering Questions",
     "steam_id": 743198269,

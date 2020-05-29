@@ -363,7 +363,7 @@ public class FlavorTextCruel : MonoBehaviour
         for (int i = start; i < maxStageAmount; i++)
         {
             int rando = UnityEngine.Random.Range(0, 2);
-            for (int j = 0; j < 4; j++)
+            for (int j = buttonStates.Where(c => c).Count(); j < 4; j++)
             {
                 for (int g = 0; g < 4; g++)
                 {
