@@ -1,10 +1,10 @@
 ﻿[
-  {
+  /**{
     "name": "% Grey",
     "steam_id": 1951154690,
     "module_id": "PercentageGreyModule",
     "text": "But how will you relay this information in between you and the defuser?"
-  },
+  },*/
   {
     "name": "...?",
     "steam_id": 1917177087,
@@ -1592,7 +1592,7 @@
   },*/
   {
     "name": "Four-Card Monte",
-    "steam_id": 1691902955,
+    "steam_id": 2002660679,
     "module_id": "Krit4CardMonte",
     "text": "A game of luck when defusing bombs, except if you can cheat luck."
   },
@@ -1700,7 +1700,7 @@
   },
   {
     "name": "Gray Cipher",
-    "steam_id": 1898602367,
+    "steam_id": 1894824276,
     "module_id": "grayCipher",
     "text": "This cipher might seem gray and bleak and boring. Well, I must say... you’re not wrong."
   },
