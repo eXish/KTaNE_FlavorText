@@ -1,10 +1,4 @@
 ﻿[
-  /**{
-    "name": "% Grey",
-    "steam_id": 1951154690,
-    "module_id": "PercentageGreyModule",
-    "text": "But how will you relay this information in between you and the defuser?"
-  },*/
   {
     "name": "...?",
     "steam_id": 1917177087,
@@ -71,12 +65,6 @@
     "module_id": "aa",
     "text": "aaaaaaaaa."
   },
-  /**{
-    "name": "AAAAA",
-    "steam_id": 1814012680,
-    "module_id": "AAAAA",
-    "text": "What is it with people and the letter A?"
-  },*/
   {
     "name": "Accumulation",
     "steam_id": 1542509478,
@@ -215,12 +203,6 @@
     "module_id": "AnsweringCanBeFun",
     "text": "füñ"
   },
-  /**{
-    "name": "Answer to...",
-    "steam_id": 2022038157,
-    "module_id": "answerTo",
-    "text": "You think you know the answers to a lot of things? Well, think again."
-  },*/
   {
     "name": "Answering Questions",
     "steam_id": 743198269,
@@ -485,12 +467,6 @@
     "module_id": "boneAppleTea",
     "text": "Ah yes, synonym rolls... Just like grammar used to make."
   },
-  /**{
-    "name": "Book of Mario Thousands of Doors",
-    "steam_id": 1808982413,
-    "module_id": "BookofMarioModule",
-    "text": "This translation article has been translated to Google"
-  },*/
   {
     "name": "Boolean Keypad",
     "steam_id": 1797329175,
@@ -574,7 +550,7 @@
     "steam_id": 1605148298,
     "module_id": "BrokenGuitarChordsModule",
     "text": "You hum it, I'll play it. On a guitar with a broken string!"
-  },  
+  },
   {
     "name": "Brush Strokes",
     "steam_id": 1706685712,
@@ -695,7 +671,6 @@
     "module_id": "kataCheatCheckout",
     "text": "The hacking service business is not that easy. Also, be careful with every transaction."
   },
-
   {
     "name": "Cheep Checkout",
     "steam_id": 1912952468,
@@ -750,12 +725,6 @@
     "module_id": "codenames",
     "text": "The bond's Name. James Name. Bond Name's The James."
   },
-  /**{
-    "name": "Coding Effiencitly",
-    "steam_id": 1824101420,
-    "module_id": "GoCommitCoding",
-    "text": "Apparently you can learn coding while defusing a bomb"
-  },*/
   {
     "name": "Coffeebucks",
     "steam_id": 1528518212,
@@ -1092,7 +1061,7 @@
     "module_id": "DecoloredSquaresModule",
     "text": "A structure cannot stand without a foundation. Logic is the foundation of function. Function is the essence of control."
   },
-    {
+  {
     "name": "Desert Bus",
     "steam_id": 1855039212,
     "module_id": "desertBus",
@@ -1584,12 +1553,6 @@
     "module_id": "forgetUsNot",
     "text": "Power is in tearing human minds to pieces and putting them back together again in new shapes of your own choosing. -Orwell, 1984."
   },
-  /**{
-    "name": "The Fortnight",
-    "steam_id": 1822951298,
-    "module_id": "KtaneTheForkKnife",
-    "text": "Rekking noskins has never been easier before *dabs*"
-  },*/
   {
     "name": "Four-Card Monte",
     "steam_id": 2002660679,
@@ -1608,7 +1571,7 @@
     "module_id": "FriendshipModule",
     "text": "Hey. I could defuse this bomb in ten seconds flat."
   },
-   {
+  {
     "name": "Fruits",
     "steam_id": 1864365188,
     "module_id": "fruits",
@@ -2046,12 +2009,6 @@
     "module_id": "NeedyKnob",
     "text": "Needlessly complicated and endlessly needy. Imagine if such expertise were used to make something other than diabolical puzzles."
   },
-  /**{
-    "name": "Know Your Way",
-    "steam_id": 1461359648,
-    "module_id": "KnowYourWay",
-    "text": "If DOWN is on the LEFT I have to press RIGHT if I wanna submit UP. Easy."
-  },*/
   {
     "name": "Kooky Keypad",
     "steam_id": 1869640550,
@@ -2118,12 +2075,6 @@
     "module_id": "lgndLEDMath",
     "text": "No, this isn't Color Morse."
   },
-  /**{
-    "name": "LED Solver",
-    "steam_id": 1807591664,
-    "module_id": "LedSolver",
-    "text": "Who knew that LEDs could be so deadly on a bomb?"
-  },*/
   {
     "name": "Left and Right",
     "steam_id": 1640175945,
@@ -2417,7 +2368,7 @@
     "steam_id": 1648789362,
     "module_id": "KritMicroModules",
     "text": "Does this bomb look smaller to you? Wait... Why is it mounted on a bigger bomb?"
-  },  
+  },
   {
     "name": "Microphone",
     "steam_id": 1986060019,
@@ -2742,7 +2693,6 @@
     "module_id": "NotWiresword",
     "text": "Wires are the main features of KTaNE! Wait, no, Simon is the norm. Wires are more like the second or third. Morse? No matter..."
   },
-
   {
     "name": "The Number",
     "steam_id": 1360126644,
@@ -2983,12 +2933,6 @@
     "module_id": "MazeV2",
     "text": "I'd wash your hands after this one..."
   },
-  /**{
-    "name": "The Plunger",
-    "steam_id": 1646013068,
-    "module_id": "needyPlunger",
-    "text": "Houston, we have an easy needy module."
-  },*/
   {
     "name": "The Plunger Button",
     "steam_id": 1544816895,
@@ -3241,12 +3185,6 @@
     "module_id": "revPolNot",
     "text": "5 5+3 3+*9+"
   },
-  /**{
-    "name": "Reversed Edgework",
-    "steam_id": 1950730138,
-    "module_id": "ReversedEdgework",
-    "text": "In Soviet Russia Edgework Questions everything"
-  },*/
   {
     "name": "RGB Maze",
     "steam_id": 1871931504,
@@ -3923,7 +3861,7 @@
     "name": "Ternary Converter",
     "steam_id": 1892503856,
     "module_id": "qkTernaryConverter",
-	"text": "There are +0 types of people in the world, those who understand binary, those who don't, and those who have ascended to balanced ternary, the ultimate number system"
+    "text": "There are +0 types of people in the world, those who understand binary, those who don't, and those who have ascended to balanced ternary, the ultimate number system"
   },
   {
     "name": "Terraria Quiz",
@@ -4386,5 +4324,539 @@
     "steam_id": 946256499,
     "module_id": "ZooModule",
     "text": "Ruff! Roar! Meow! Warble! Neigh! Tweet! Mew! Cock-a-doodle-doo! Honk! Baa! Bark! Bellow! Crow! Cha-caw! Buzz! Growl! Ribbit! Coo! Caw! Gobble! Screech! Whinny! Bleat! Hee-haw! Chirrup! Arf! Croak! Chirp! Squawk! Woof! Bow-wow! Cluck! Snort! Yap! Click! Squeal! Oink! Hoot! Moo! Squeak! Howl! Bah-gawk! Purr! Hiss! Quack!"
+  },
+  {
+    "name": "Arrow Talk",
+    "steam_id": 2075509471,
+    "module_id": "ArrowTalk",
+    "text": "Points towards your doom."
+  },
+  {
+    "name": "Audio Morse",
+    "steam_id": 2077294164,
+    "module_id": "lgndAudioMorse",
+    "text": "“All these beeps are giving me a headache!“"
+  },
+  {
+    "name": "BoozleTalk",
+    "steam_id": 2075509471,
+    "module_id": "BoozleTalk",
+    "text": "No bamboozling will be allowed within the presence of this bomb."
+  },
+  {
+    "name": "Button Order",
+    "steam_id": 2067849034,
+    "module_id": "buttonOrder",
+    "text": "Do you really think it's that easy... Well it is."
+  },
+  {
+    "name": "Caesar’s Maths",
+    "steam_id": 2061817182,
+    "module_id": "caesarsMaths",
+    "text": "You thought maths was hard enough? Well now it’s encrypted too."
+  },
+  {
+    "name": "Co-op Harmony Sequence",
+    "steam_id": 2071946726,
+    "module_id": "coopharmonySequence",
+    "text": "A harmony is to the musician’s ears as a 2-by-4 is to the woodworker."
+  },
+  {
+    "name": "Crazy Talk With A K",
+    "steam_id": 2075509471,
+    "module_id": "CrazyTalkWithAK",
+    "text": "Text, when distorted properly, can only be read at certain angles. This module utilizes this fact."
+  },
+  {
+    "name": "Deck Creating",
+    "steam_id": 2074441857,
+    "module_id": "kataDeckCreating",
+    "text": "“Why are you trying to make the latest meta deck? We’re defusing a bomb!!”"
+  },
+  {
+    "name": "Elder Password",
+    "steam_id": 2069775572,
+    "module_id": "elderPassword",
+    "text": "“Perthro, Ansuz, Sowulo, Sowulo, Wunjo, Othila, Raido, Dagaz”"
+  },
+  {
+    "name": "Fencing",
+    "steam_id": 2049918864,
+    "module_id": "fencing",
+    "text": "En garde!"
+  },
+  {
+    "name": "Flag Identification",
+    "steam_id": 2059595303,
+    "module_id": "needyFlagIdentification",
+    "text": "Only flag nerds and vexillologists will reach level Guinea-Bissau."
+  },
+  {
+    "name": "Iconic",
+    "steam_id": 2070071164,
+    "module_id": "iconic",
+    "text": "Hey, you ever seen these pixelated images on this website about defusing bombs? Yeah me neither."
+  },
+  {
+    "name": "Jaden Smith Talk",
+    "steam_id": 2075509471,
+    "module_id": "JadenSmithTalk",
+    "text": "To be or not to be."
+  },
+  {
+    "name": "Jukebox.WAV",
+    "steam_id": 2069762771,
+    "module_id": "JukeboxWAV",
+    "text": "Be the spectogram."
+  },
+  {
+    "name": "Just Numbers",
+    "steam_id": 2056659627,
+    "module_id": "JustNumbersModule",
+    "text": "(aka #1, NO NEED TO USE A STUPID CALCULATOR!)"
+  },
+  {
+    "name": "KayMazey Talk",
+    "steam_id": 2075509471,
+    "module_id": "KMazeyTalk",
+    "text": "Lost, confused, and dazed; There is no way out of this tricky maze."
+  },
+  {
+    "name": "Kilo Talk",
+    "steam_id": 2075509471,
+    "module_id": "KiloTalk",
+    "text": "Perfectly balanced...as everything should be."
+  },
+  {
+    "name": "Ladder Lottery",
+    "steam_id": 2071631185,
+    "module_id": "ladderLottery",
+    "text": "Hopefully this goes better than the time I tried to defuse a bomb with a Ouija board on it."
+  },
+  {
+    "name": "Lying Indicators",
+    "steam_id": 2059872002,
+    "module_id": "lyingIndicators",
+    "text": "The sentence below is lying.\nThe sentence above is truthful."
+  },
+  {
+    "name": "Malfunctions",
+    "steam_id": 2043218097,
+    "module_id": "malfunctions",
+    "text": "How in the heck do you get ANYTHING from this??!?"
+  },
+  {
+    "name": "Minecraft Parody",
+    "steam_id": 2044851803,
+    "module_id": "minecraftParody",
+    "text": "“I don't want to be associated with cringe“-[REDACTED]"
+  },
+  {
+    "name": "Minecraft Survival",
+    "steam_id": 2047831638,
+    "module_id": "kataMinecraftSurvival",
+    "text": "Hardcore taken to a whole new difficulty. Now with more creepers!"
+  },
+  {
+    "name": "Mystery Module",
+    "steam_id": 2069225943,
+    "module_id": "mysterymodule",
+    "text": "Let's see what's behind door number gray."
+  },
+  {
+    "name": "Name Changer",
+    "steam_id": 2055656545,
+    "module_id": "nameChanger",
+    "text": "The word, and drow, are the same!"
+  },
+  {
+    "name": "NumberWang",
+    "steam_id": 2048115407,
+    "module_id": "kikiNumberWang",
+    "text": "“Let’s rotate the board!“"
+  },
+  {
+    "name": "Palindromes",
+    "steam_id": 2077052724,
+    "module_id": "palindromes",
+    "text": "Is it crazy how saying sentences backwards creates backwards sentences saying how crazy it is?"
+  },
+  {
+    "name": "Pow",
+    "steam_id": 2079651359,
+    "module_id": "powModule",
+    "text": "You should learn to treat retro bossfights with respect, or else they will end up on your bomb."
+  },
+  {
+    "name": "Quote Crazy Talk End Quote",
+    "steam_id": 2075509471,
+    "module_id": "QuoteCrazyTalkEndQuote",
+    "text": "Time your strike."
+  },
+  {
+    "name": "Red Herring",
+    "steam_id": 2076419822,
+    "module_id": "RedHerring",
+    "text": "Something to distract you from the task at hand."
+  },
+  {
+    "name": "Roger",
+    "steam_id": 2041639155,
+    "module_id": "roger",
+    "text": "You hardly know 'er."
+  },
+  {
+    "name": "RPS Judging",
+    "steam_id": 2048829561,
+    "module_id": "RPSJudging",
+    "text": "Deciding everytime when they fight"
+  },
+  {
+    "name": "Shuffled Strings",
+    "steam_id": 2047604395,
+    "module_id": "shuffledStrings",
+    "text": "Sort it out!"
+  },
+  {
+    "name": "Siffron",
+    "steam_id": 2075988516,
+    "module_id": "siffron",
+    "text": "Why are there so many words that mean 'blue'!?"
+  },
+  {
+    "name": "Standard Crazy Talk",
+    "steam_id": 2075509471,
+    "module_id": "StandardCrazyTalk",
+    "text": "Blue red blue yellow... wrong question."
+  },
+  {
+    "name": "Stars",
+    "steam_id": 2068079307,
+    "module_id": "stars",
+    "text": "How shiny!"
+  },
+  {
+    "name": "Stock Images",
+    "steam_id": 2042940671,
+    "module_id": "StockImages",
+    "text": "Sponsored by https://www.gettyimages.com/"
+  },
+  {
+    "name": "Strike/Solve",
+    "steam_id": 2045161243,
+    "module_id": "strikeSolve",
+    "text": "I feel like this is going to trick me....."
+  },
+  {
+    "name": "Switching Maze",
+    "steam_id": 2069949276,
+    "module_id": "MazeSwitching",
+    "text": "Bad for people with certain conditions."
+  },
+  {
+    "name": "The Twin",
+    "steam_id": 2053979482,
+    "module_id": "TheTwinModule",
+    "text": "I sure hope that you don't get to see two of them on the same bomb."
+  },
+  {
+    "name": "Training Text",
+    "steam_id": 2060905286,
+    "module_id": "TrainingText",
+    "text": "Take the time to pay attention and respect its beauty."
+  },
+  {
+    "name": "Triamonds",
+    "steam_id": 2067263786,
+    "module_id": "triamonds",
+    "text": "Counting to three! How hard can it be?"
+  },
+  {
+    "name": "Uncolored Switches",
+    "steam_id": 2047073747,
+    "module_id": "R4YUncoloredSwitches",
+    "text": "Oh no, it’s one of these module chains again.\nOh no, it’s one of these module chains again."
+  },
+  {
+    "name": "Wonder Cipher",
+    "steam_id": 2061443698,
+    "module_id": "WonderCipher",
+    "text": "What happens is a mystery!"
+  },
+  {
+    "name": "3 LEDs",
+    "steam_id": 2094742750,
+    "module_id": "threeLEDsModule",
+    "text": "For those who don't find LEDs interesting enough."
+  },
+  {
+    "name": "7",
+    "steam_id": 1940164898,
+    "module_id": "7",
+    "text": "It got half as many lines as its counterpart. But double the problems as the counterpart."
+  },
+  {
+    "name": "Accelerando",
+    "steam_id": 2096759895,
+    "module_id": "accelerando",
+    "text": "“12 B.“ “Okay, what's next?“ “14 C.“ “Okay, go on.“ “20 P.“ “Wait, what was the number?“ “4 Z.“ “No, the last...“ “2 G. 19 Q. 6 E.“ “Slow down!“ “7 U. 21 R. 16 W. 18 D...“"
+  },
+  {
+    "name": "Audio Keypad",
+    "steam_id": 2114456699,
+    "module_id": "AudioKeypad",
+    "text": "Instead of actually defusing the bomb, press play, and show the defusal sound clip to your cool friend Gary."
+  },
+  {
+    "name": "Badugi",
+    "steam_id": 2082801431,
+    "module_id": "ksmBadugi",
+    "text": "Something happened in Vegas, and it apparently didn't stay there."
+  },
+  {
+    "name": "Basic Morse",
+    "steam_id": 2114330207,
+    "module_id": "BasicMorse",
+    "text": "Basically, you're screwed."
+  },
+  {
+    "name": "Bloxx",
+    "steam_id": 2113121545,
+    "module_id": "bloxx",
+    "text": "Thump, thump, thump, thump... That's the sound a massive block does when he moves around."
+  },
+  {
+    "name": "Brawler Database",
+    "steam_id": 2108386209,
+    "module_id": "brawlerDatabaseModule",
+    "text": "Who needs an interspace anyways when we can just use a database!"
+  },
+  {
+    "name": "Chicken Nuggets",
+    "steam_id": 2082891344,
+    "module_id": "ChickenNuggets",
+    "text": "The things mathematicians do in their free time are questionable."
+  },
+  {
+    "name": "Color Braille",
+    "steam_id": 2099024573,
+    "module_id": "ColorBrailleModule",
+    "text": "This doesn’t feel right, but at least it looks good."
+  },
+  {
+    "name": "Cookie Clicker",
+    "steam_id": 2113747017,
+    "module_id": "Cookieclicker",
+    "text": "Where's the milk? There needs to be milk to drown the cookies in."
+  },
+  {
+    "name": "Dictation",
+    "steam_id": 2114337227,
+    "module_id": "Dictation",
+    "text": "Sphinx of black quartz, judge my vow."
+  },
+  {
+    "name": "Earthbound",
+    "steam_id": 2095404030,
+    "module_id": "EarthboundModule",
+    "text": "“Kid, you're gonna blow up. Say hi to Hinawa for me.”"
+  },
+  {
+    "name": "Emotiguy Identification",
+    "steam_id": 2115430907,
+    "module_id": "EmotiguyIdentification",
+    "text": "Basic emotiguy learning material. Learn who to eat."
+  },
+  {
+    "name": "Encrypted Hangman",
+    "steam_id": 2097028243,
+    "module_id": "encryptedHangman",
+    "text": "You can’t tell me this harmless school game doesn’t encourage suicide... But everyone loves it."
+  },
+  {
+    "name": "Goofy’s Game",
+    "steam_id": 2092235513,
+    "module_id": "goofysgame",
+    "text": "1 11 21 1211 111221 312211..."
+  },
+  {
+    "name": "hexOS",
+    "steam_id": 2106930521,
+    "module_id": "hexOS",
+    "text": "\"Hey, I didn't give you permission to use this technology!\"\n\"These guys stole the source code, and couldn't be bothered to put in a keypad?\""
+  },
+  {
+    "name": "IntegerTrees",
+    "steam_id": 2089959681,
+    "module_id": "Integer Trees",
+    "text": "Contrary to binary trees, integer trees grow upwards and are actually explained..."
+  },
+  {
+    "name": "IPA",
+    "steam_id": 2114321021,
+    "module_id": "ipa",
+    "text": "fleɪvər tɛksts ɑr ˈrɪli ˈgɛtɪŋ oʊld."
+  },
+  {
+    "name": "Kugelblitz",
+    "steam_id": 2114008067,
+    "module_id": "kugelblitz",
+    "text": "S u c c u m b t h e v o i d"
+  },
+  {
+    "name": "Kyudoku",
+    "steam_id": 2108771713,
+    "module_id": "kyudoku",
+    "text": "\"Ichi, Ni, San, Yon, Go, Roku, Nana, Hachi, Kyu\""
+  },
+  {
+    "name": "Life Iteration",
+    "steam_id": 2096067876,
+    "module_id": "LifeIteration",
+    "text": "Solving this module is a matter of life and death, many times over!"
+  },
+  {
+    "name": "M&Ns",
+    "steam_id": 1892878540,
+    "module_id": "MandNs",
+    "text": "S S S and- wait a minute..."
+  },
+  {
+    "name": "Masher The Bottun",
+    "steam_id": 2086041932,
+    "module_id": "masherTheBottun",
+    "text": "To be fair, you have to have a very high IQ to understand Lama modules. The solving method is very complex, and without a solid grasp of theoretical physics, most of the manual will go over a typical expert's head."
+  },
+  {
+    "name": "Mental Math",
+    "steam_id": 2114337227,
+    "module_id": "MentalMath",
+    "text": "The expert looks at the table\nJust for the defuser\nThe expert's not fast enough\nBOOM! goes Defuser!"
+  },
+  {
+    "name": "Module Rick",
+    "steam_id": 2093827747,
+    "module_id": "ModuleRick",
+    "text": "Funniest shit I’ve ever seen."
+  },
+  {
+    "name": "More Code",
+    "steam_id": 2111710312,
+    "module_id": "MoreCode",
+    "text": "Knowing Morse and its letters is boring, let's spice it up a little."
+  },
+  {
+    "name": "Multitask",
+    "steam_id": 2108171611,
+    "module_id": "multitask",
+    "text": "Four times the fun."
+  },
+  {
+    "name": "Needy Game of Life",
+    "steam_id": 1980685895,
+    "module_id": "gameOfLifeNeedy",
+    "text": "You only get to live life once unless you believe in reincarnation."
+  },
+  {
+    "name": "OmegaForget",
+    "steam_id": 2113222997,
+    "module_id": "omegaForget",
+    "text": "How is one supposed to complete so much math?"
+  },
+  {
+    "name": "Password Destroyer",
+    "steam_id": 2104677606,
+    "module_id": "pwDestroyer",
+    "text": "Who said that 7 digit passwords are weak?"
+  },
+  {
+    "name": "Pickup Identification",
+    "steam_id": 2094663113,
+    "module_id": "PickupIdentification",
+    "text": "This really is a weird treasure hunt."
+  },
+  {
+    "name": "Plant Identification",
+    "steam_id": 2091676029,
+    "module_id": "PlantIdentification",
+    "text": "Basic zombie learning material. Learn what to eat."
+  },
+  {
+    "name": "Reaction",
+    "steam_id": 2097486033,
+    "module_id": "xtrreaction",
+    "text": "And it gets faster."
+  },
+  {
+    "name": "Reflex",
+    "steam_id": 2104362675,
+    "module_id": "lgndReflex",
+    "text": "Weird reflex but ok."
+  },
+  {
+    "name": "Remote Math",
+    "steam_id": 2100176840,
+    "module_id": "remotemath",
+    "text": "You're telling me bombs now connect to the internet?"
+  },
+  {
+    "name": "Shortcuts",
+    "steam_id": 2111127263,
+    "module_id": "shortcuts",
+    "text": "There has to be a faster way to do that thing... If only there was a shortcut."
+  },
+  {
+    "name": "Simon Stashes",
+    "steam_id": 1974393045,
+    "module_id": "simonStashes",
+    "text": "I lived long enough to see myself become the villain."
+  },
+  {
+    "name": "Spot The Difference",
+    "steam_id": 2085516950,
+    "module_id": "SpotTheDifference",
+    "text": "Hard as balls..."
+  },
+  {
+    "name": "Tetriamonds",
+    "steam_id": 2067263786,
+    "module_id": "tetriamonds",
+    "text": "Counting to four! It’s not just one more?"
+  },
+  {
+    "name": "The Arena",
+    "steam_id": 2114337227,
+    "module_id": "TheArena",
+    "text": "This isn't just some arbitrary decision. I put THOUGHT into this. I'm not one of those lazy serial killers with a game show."
+  },
+  {
+    "name": "The Heart",
+    "steam_id": 2097662452,
+    "module_id": "TheHeart",
+    "text": "It's true; bombs can feel emotions too. How exciting is that?"
+  },
+  {
+    "name": "Thread the Needle",
+    "steam_id": 2097423064,
+    "module_id": "threadTheNeedle",
+    "text": "It's wheely sew much fun!"
+  },
+  {
+    "name": "Type Racer",
+    "steam_id": 2083969684,
+    "module_id": "typeRacer",
+    "text": "Increase your typing speed while racing against others... or in this case, racing against the bomb."
+  },
+  {
+    "name": "Typing Tutor",
+    "steam_id": 2108125673,
+    "module_id": "needyTypingTutor",
+    "text": "Full-sized keyboards are a bit unwieldly when shrunk down to fit on a module. It has been done, but the end result isn't the easiest thing to use. We do have some 4-key keyboards in the back, but we ask that you please bring your own. Oh, and about this being a tutor? It's really more so the \"figure it out on your own\" type of tutor."
+  },
+  {
+    "name": "Yes and No",
+    "steam_id": 2089035682,
+    "module_id": "yesandno",
+    "text": "Don’ not press not no but not press not yes if not not no is not yes. Sorry... what?"
   }
 ]
