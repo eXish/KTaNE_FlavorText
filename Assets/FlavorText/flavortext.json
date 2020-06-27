@@ -1,10 +1,4 @@
 ﻿[
-  /**{
-    "name": "% Grey",
-    "steam_id": 1951154690,
-    "module_id": "PercentageGreyModule",
-    "text": "But how will you relay this information in between you and the defuser?"
-  },*/
   {
     "name": "...?",
     "steam_id": 1917177087,
@@ -71,12 +65,6 @@
     "module_id": "aa",
     "text": "aaaaaaaaa."
   },
-  /**{
-    "name": "AAAAA",
-    "steam_id": 1814012680,
-    "module_id": "AAAAA",
-    "text": "What is it with people and the letter A?"
-  },*/
   {
     "name": "Accumulation",
     "steam_id": 1542509478,
@@ -215,12 +203,6 @@
     "module_id": "AnsweringCanBeFun",
     "text": "füñ"
   },
-  /**{
-    "name": "Answer to...",
-    "steam_id": 2022038157,
-    "module_id": "answerTo",
-    "text": "You think you know the answers to a lot of things? Well, think again."
-  },*/
   {
     "name": "Answering Questions",
     "steam_id": 743198269,
@@ -485,12 +467,6 @@
     "module_id": "boneAppleTea",
     "text": "Ah yes, synonym rolls... Just like grammar used to make."
   },
-  /**{
-    "name": "Book of Mario Thousands of Doors",
-    "steam_id": 1808982413,
-    "module_id": "BookofMarioModule",
-    "text": "This translation article has been translated to Google"
-  },*/
   {
     "name": "Boolean Keypad",
     "steam_id": 1797329175,
@@ -749,12 +725,6 @@
     "module_id": "codenames",
     "text": "The bond's Name. James Name. Bond Name's The James."
   },
-  /**{
-    "name": "Coding Effiencitly",
-    "steam_id": 1824101420,
-    "module_id": "GoCommitCoding",
-    "text": "Apparently you can learn coding while defusing a bomb"
-  },*/
   {
     "name": "Coffeebucks",
     "steam_id": 1528518212,
@@ -1583,12 +1553,6 @@
     "module_id": "forgetUsNot",
     "text": "Power is in tearing human minds to pieces and putting them back together again in new shapes of your own choosing. -Orwell, 1984."
   },
-  /**{
-    "name": "The Fortnight",
-    "steam_id": 1822951298,
-    "module_id": "KtaneTheForkKnife",
-    "text": "Rekking noskins has never been easier before *dabs*"
-  },*/
   {
     "name": "Four-Card Monte",
     "steam_id": 2002660679,
@@ -2045,12 +2009,6 @@
     "module_id": "NeedyKnob",
     "text": "Needlessly complicated and endlessly needy. Imagine if such expertise were used to make something other than diabolical puzzles."
   },
-  /**{
-    "name": "Know Your Way",
-    "steam_id": 1461359648,
-    "module_id": "KnowYourWay",
-    "text": "If DOWN is on the LEFT I have to press RIGHT if I wanna submit UP. Easy."
-  },*/
   {
     "name": "Kooky Keypad",
     "steam_id": 1869640550,
@@ -2117,12 +2075,6 @@
     "module_id": "lgndLEDMath",
     "text": "No, this isn't Color Morse."
   },
-  /**{
-    "name": "LED Solver",
-    "steam_id": 1807591664,
-    "module_id": "LedSolver",
-    "text": "Who knew that LEDs could be so deadly on a bomb?"
-  },*/
   {
     "name": "Left and Right",
     "steam_id": 1640175945,
@@ -2981,12 +2933,6 @@
     "module_id": "MazeV2",
     "text": "I'd wash your hands after this one..."
   },
-  /**{
-    "name": "The Plunger",
-    "steam_id": 1646013068,
-    "module_id": "needyPlunger",
-    "text": "Houston, we have an easy needy module."
-  },*/
   {
     "name": "The Plunger Button",
     "steam_id": 1544816895,
@@ -3239,12 +3185,6 @@
     "module_id": "revPolNot",
     "text": "5 5+3 3+*9+"
   },
-  /**{
-    "name": "Reversed Edgework",
-    "steam_id": 1950730138,
-    "module_id": "ReversedEdgework",
-    "text": "In Soviet Russia Edgework Questions everything"
-  },*/
   {
     "name": "RGB Maze",
     "steam_id": 1871931504,
