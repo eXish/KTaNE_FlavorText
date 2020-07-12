@@ -5122,5 +5122,11 @@
     "steam_id": 2126661797,
     "module_id": "wolfGoatCabbageModule",
     "text": "Do you remember the old riddle Wolf, Goat, and Cabbage from Alcuin of York? If not, you now have a chance to solve it! Well, if only this is not attached to the explosive device."
+  },
+  {
+    "name": "Know Your Way",
+    "steam_id": 2064694043,
+    "module_id": "KnowYourWay",
+    "text": "If DOWN is on the LEFT I have to press RIGHT if I wanna submit UP. Easy."
   }
 ]
