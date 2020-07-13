@@ -10,7 +10,7 @@ using System;
 public class FlavorTextOption
 {
     public String name;
-    public int steam_id;
+    public long steam_id;
     public String module_id;
     public String text;
 }
@@ -86,7 +86,7 @@ public class FlavorText : MonoBehaviour
         }
         else
         {
-            Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should'nt...)", _moduleId);
+            Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably shouldn't...)", _moduleId);
         }
         for (int i = 0; i < buttons.Count(); i++)
         {
@@ -120,7 +120,7 @@ public class FlavorText : MonoBehaviour
         }
         else
         {
-            Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should not...)", _moduleId);
+            Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably shouldn't...)", _moduleId);
         }
     }
 

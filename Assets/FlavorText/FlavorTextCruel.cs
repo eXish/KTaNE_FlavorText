@@ -26,7 +26,7 @@ public class FlavorTextCruel : MonoBehaviour
     int[] corrAnswers2;
     int[] buttonNumbers;
     bool[] buttonStates;
-    List<int> moduleIds;
+    List<long> moduleIds;
     int stage = 0;
     int maxStageAmount = 3;
     static int _moduleIdCounter = 1;
@@ -96,7 +96,7 @@ public class FlavorTextCruel : MonoBehaviour
 
         textOption = textOptions[UnityEngine.Random.Range(0, textOptions.Count)];
         textDisplay.text = textOption.text;
-        moduleIds = new List<int>();
+        moduleIds = new List<long>();
         for (int i = 0; i < textOptions.Count; i++)
         {
             if (textOptions[i].text == textOption.text && !moduleIds.Contains(textOptions[i].steam_id))
@@ -186,7 +186,7 @@ public class FlavorTextCruel : MonoBehaviour
         {
             Debug.LogFormat("[Flavor Text EX #{0}] You chose {1}.", _moduleId, buttonNumbers[pressedButton]);
             bool buttonIsCorrect = !buttonStates[pressedButton];
-            List<int> moduleIdsCopy = new List<int>(moduleIds);
+            List<long> moduleIdsCopy = new List<long>(moduleIds);
             foreach (int id in moduleIds) {
                 string steamId = id.ToString();
                 for (int i = 0; i < buttonNumbers.Count(); i++)
