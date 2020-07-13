@@ -1165,7 +1165,7 @@
   },
   {
     "name": "Double Expert",
-    "steam_id": 1797954260,
+    "steam_id": 2041856356,
     "module_id": "doubleExpert",
     "text": "Experience the feeling of both side of the team!"
   },
@@ -1537,7 +1537,7 @@
   },
   {
     "name": "Forget Them All",
-    "steam_id": 1760215002,
+    "steam_id": 2026554588,
     "module_id": "forgetThemAll",
     "text": "Remembering where you’ve been sure helps figuring out where you’re going to."
   },
@@ -1627,7 +1627,7 @@
   },
   {
     "name": "Genetic Sequence",
-    "steam_id": 1647242712,
+    "steam_id": 2048468411,
     "module_id": "geneticSequence",
     "text": "Only true scientists synthesize proteins while bomb defusing."
   },
@@ -2413,7 +2413,7 @@
   },
   {
     "name": "The Modkit",
-    "steam_id": 1860975453,
+    "steam_id": 2137793443,
     "module_id": "modkit",
     "text": "It is literally do or die."
   },
@@ -2479,7 +2479,7 @@
   },
   {
     "name": "Morse Buttons",
-    "steam_id": 1736614714,
+    "steam_id": 2031876189,
     "module_id": "morseButtons",
     "text": "Oh, yes... More buttons and blinking lights... How original..."
   },
@@ -2743,7 +2743,7 @@
   },
   {
     "name": "Old Fogey",
-    "steam_id": 1812956611,
+    "steam_id": 2111021779,
     "module_id": "oldFogey",
     "text": "\"These kids today with their shiny mods and their newfangled needies. Twenty Comp Wires and twenty Knobs. Now that’s real KTaNE.\""
   },
@@ -5111,12 +5111,12 @@
     "module_id": "theMissingLetter",
     "text": "I wonder where it went… Maybe it needed to go P? Maybe it went to find a new golf T? Or maybe it just wants to find U."
   },
-  {
+  /**{
     "name": "Town of KTaNE",
     "steam_id": 2139729039,
     "module_id": "townofKTaNE",
     "text": "Dammit, why do Mafia and Werewolf have to be taken."
-  },
+  },*/
   {
     "name": "Wolf, Goat, and Cabbage",
     "steam_id": 2126661797,
