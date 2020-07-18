@@ -151,7 +151,7 @@ public class FlavorTextCruel : MonoBehaviour
                     }
                 }
             }
-            Debug.LogFormat("[Flavor Text EX #{0}] It offered you a choice of {1}. It is looking for {2} or {3}.", _moduleId, choice, log1, log2);
+            Debug.LogFormat("[Flavor Text EX #{0}] It offered you a choice of {1}. It's looking for {2} or {3}.", _moduleId, choice, log1, log2);
         }
         else
         {
@@ -173,7 +173,7 @@ public class FlavorTextCruel : MonoBehaviour
                 else
                     log += corrAnswers1[j];
             }
-            Debug.LogFormat("[Flavor Text EX #{0}] It offered you a choice of {1}. It is looking for {2}.", _moduleId, choice, log);
+            Debug.LogFormat("[Flavor Text EX #{0}] It offered you a choice of {1}. It's looking for {2}.", _moduleId, choice, log);
         }
     }
     

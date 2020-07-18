@@ -205,6 +205,6 @@ public class FlavorText : MonoBehaviour
         {
             buttons[0].OnInteract();
         }
-        yield return new WaitForSeconds(0.001f);
+        yield return new WaitForSeconds(0.1f);
     }
 }
