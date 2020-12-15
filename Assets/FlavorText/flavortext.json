@@ -1063,7 +1063,7 @@
   },
   {
     "name": "The Deck of Many Things",
-    "steam_id": 1785189166,
+    "steam_id": 2208322652,
     "module_id": "deckOfManyThings",
     "text": "A traveler's journal in the form of a game."
   },
@@ -2323,7 +2323,7 @@
   },
   {
     "name": "Maze^3",
-    "steam_id": 1717175402,
+    "steam_id": 2282712812,
     "module_id": "maze3",
     "text": "It’s like the original, but on a whole ’nother scale!"
   },
@@ -2575,7 +2575,7 @@
   },
   {
     "name": "Needlessly Complicated Button",
-    "steam_id": 1837163865,
+    "steam_id": 2164252004,
     "module_id": "needlesslyComplicatedButton",
     "text": "Three indicators and a button? What could possibly go wrong?"
   },
@@ -2797,7 +2797,7 @@
   },
   {
     "name": "osu!",
-    "steam_id": 2020119635,
+    "steam_id": 2257442337,
     "module_id": "osu",
     "text": "zxzxzxzxzxzxzxzxzxzxzxzxzxzxzxzxzxz..."
   },
@@ -4333,7 +4333,7 @@
   },
   {
     "name": "Arrow Talk",
-    "steam_id": 2075509471,
+    "steam_id": 2267055569,
     "module_id": "ArrowTalk",
     "text": "Points towards your doom."
   },
@@ -4345,7 +4345,7 @@
   },
   {
     "name": "BoozleTalk",
-    "steam_id": 2075509471,
+    "steam_id": 2267055569,
     "module_id": "BoozleTalk",
     "text": "No bamboozling will be allowed within the presence of this bomb."
   },
@@ -4369,7 +4369,7 @@
   },
   {
     "name": "Crazy Talk With A K",
-    "steam_id": 2075509471,
+    "steam_id": 2267055569,
     "module_id": "CrazyTalkWithAK",
     "text": "Text, when distorted properly, can only be read at certain angles. This module utilizes this fact."
   },
@@ -4405,7 +4405,7 @@
   },
   {
     "name": "Jaden Smith Talk",
-    "steam_id": 2075509471,
+    "steam_id": 2267055569,
     "module_id": "JadenSmithTalk",
     "text": "To be or not to be."
   },
@@ -4417,19 +4417,19 @@
   },
   {
     "name": "Just Numbers",
-    "steam_id": 2056659627,
+    "steam_id": 2222549926,
     "module_id": "JustNumbersModule",
     "text": "(aka #1, NO NEED TO USE A STUPID CALCULATOR!)"
   },
   {
     "name": "KayMazey Talk",
-    "steam_id": 2075509471,
+    "steam_id": 2267055569,
     "module_id": "KMazeyTalk",
     "text": "Lost, confused, and dazed; There is no way out of this tricky maze."
   },
   {
     "name": "Kilo Talk",
-    "steam_id": 2075509471,
+    "steam_id": 2267055569,
     "module_id": "KiloTalk",
     "text": "Perfectly balanced...as everything should be."
   },
@@ -4453,7 +4453,7 @@
   },
   {
     "name": "Minecraft Parody",
-    "steam_id": 2044851803,
+    "steam_id": 2257451274,
     "module_id": "minecraftParody",
     "text": "“I don't want to be associated with cringe“-[REDACTED]"
   },
@@ -4495,7 +4495,7 @@
   },
   {
     "name": "Quote Crazy Talk End Quote",
-    "steam_id": 2075509471,
+    "steam_id": 2267055569,
     "module_id": "QuoteCrazyTalkEndQuote",
     "text": "Time your strike."
   },
@@ -4531,7 +4531,7 @@
   },
   {
     "name": "Standard Crazy Talk",
-    "steam_id": 2075509471,
+    "steam_id": 2267055569,
     "module_id": "StandardCrazyTalk",
     "text": "Blue red blue yellow... wrong question."
   },
@@ -4692,9 +4692,9 @@
     "text": "\"Hey, I didn't give you permission to use this technology!\"\n\"These guys stole the source code, and couldn't be bothered to put in a keypad?\""
   },
   {
-    "name": "IntegerTrees",
-    "steam_id": 2089959681,
-    "module_id": "Integer Trees",
+    "name": "Integer Trees",
+    "steam_id": 2246260728,
+    "module_id": "IntegerTrees",
     "text": "Contrary to binary trees, integer trees grow upwards and are actually explained..."
   },
   {
@@ -4765,9 +4765,9 @@
   },
   {
     "name": "OmegaForget",
-    "steam_id": 2113222997,
+    "steam_id": 2249339848,
     "module_id": "omegaForget",
-    "text": "How is one supposed to complete so much math?"
+    "text": "Yeah, I don't like this one."
   },
   {
     "name": "Password Destroyer",
@@ -4843,7 +4843,7 @@
   },
   {
     "name": "Thread the Needle",
-    "steam_id": 2097423064,
+    "steam_id": 2246314217,
     "module_id": "threadTheNeedle",
     "text": "It's wheely sew much fun!"
   },
@@ -5083,7 +5083,7 @@
   },
   {
     "name": "Sound Design",
-    "steam_id": 2140188591,
+    "steam_id": 2273452615,
     "module_id": "soundDesign",
     "text": "Mmm sounds."
   },
