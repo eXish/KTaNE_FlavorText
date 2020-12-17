@@ -26,8 +26,7 @@ public class FlavorText : MonoBehaviour
     FlavorTextOption textOption;
     bool isActive = false;
     bool beSpecial = false;
-    List<string> moduleNames;
-    bool starePresent = false;
+    List<string> moduleIds;
     static int _moduleIdCounter = 1;
     int _moduleId = 0;
 
@@ -35,31 +34,7 @@ public class FlavorText : MonoBehaviour
     {
         _moduleId = _moduleIdCounter++;
         textOptions = JsonConvert.DeserializeObject<List<FlavorTextOption>>(flavorTextJson.text);
-        moduleNames = bombInfo.GetModuleNames();
-        Regex stareRegex = new Regex(@"[1-9][1-9][XOC][OC]");
-        foreach (string name in moduleNames)
-        {
-            Match match = stareRegex.Match(name);
-            if (match.Success)
-            {
-                starePresent = true;
-            }
-        }
-        for (int i = 0; i < textOptions.Count; i++)
-        {
-            if (moduleNames.Contains("Needy " + textOptions[i].name))
-            {
-                moduleNames.Remove("Needy " + textOptions[i].name);
-                moduleNames.Add(textOptions[i].name);
-            }
-            for (int j = i + 1; j < textOptions.Count; j++)
-            {
-                if (textOptions[i].text == textOptions[j].text && moduleNames.Contains(textOptions[i].name))
-                {
-                    moduleNames.Add(textOptions[j].name);
-                }
-            }
-        }
+        moduleIds = bombInfo.GetModuleIDs();
         GetComponent<KMBombModule>().OnActivate += OnActivate;
     }
 
@@ -79,8 +54,7 @@ public class FlavorText : MonoBehaviour
             Debug.LogFormat("[Flavor Text #{0}] It's looking for {1}.", _moduleId, textOption.name);
         }
         Debug.LogFormat("[Flavor Text #{0}] It said: {1}", _moduleId, textOption.text);
-        if (moduleNames.Contains(textOption.name) ||
-                (textOption.name == "The Stare" && starePresent) || beSpecial && (moduleNames.Contains("Countdown") || moduleNames.Contains("Cruel Countdown")))
+        if (moduleIds.Contains(textOption.module_id) || (beSpecial && (moduleIds.Contains("countdown") || moduleIds.Contains("cruelCountdown"))))
         {
             Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should...)", _moduleId);
         }
@@ -113,8 +87,7 @@ public class FlavorText : MonoBehaviour
             Debug.LogFormat("[Flavor Text #{0}] It's looking for {1}.", _moduleId, textOption.name);
         }
         Debug.LogFormat("[Flavor Text #{0}] It said: {1}", _moduleId, textOption.text);
-        if (moduleNames.Contains(textOption.name) ||
-                (textOption.name == "The Stare" && starePresent) || beSpecial && (moduleNames.Contains("Countdown") || moduleNames.Contains("Cruel Countdown")))
+        if (moduleIds.Contains(textOption.module_id) || (beSpecial && (moduleIds.Contains("countdown") || moduleIds.Contains("cruelCountdown"))))
         {
             Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should...)", _moduleId);
         }
@@ -127,13 +100,12 @@ public class FlavorText : MonoBehaviour
     void OnPress(int pressedButton)
     {
         GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, buttons[pressedButton].transform);
-        GetComponent<KMSelectable>().AddInteractionPunch();
+        buttons[pressedButton].AddInteractionPunch();
 
         if (isActive)
         {
             Debug.LogFormat("[Flavor Text #{0}] You chose {1}to accept.", _moduleId, (pressedButton == 0) ? "not " : "");
-            if (((pressedButton > 0) == moduleNames.Contains(textOption.name)) ||
-                (pressedButton > 0 && textOption.name == "The Stare" && starePresent) || ((pressedButton > 0) && beSpecial && (moduleNames.Contains("Countdown") || moduleNames.Contains("Cruel Countdown"))))
+            if (((pressedButton > 0) == moduleIds.Contains(textOption.module_id)) || ((pressedButton > 0) && beSpecial && (moduleIds.Contains("countdown") || moduleIds.Contains("cruelCountdown"))))
             {
                 Debug.LogFormat("[Flavor Text #{0}] Flavor Text was spared.", _moduleId);
                 textDisplay.text = "";
@@ -197,8 +169,9 @@ public class FlavorText : MonoBehaviour
 
     IEnumerator TwitchHandleForcedSolve()
     {
-        if (moduleNames.Contains(textOption.name) ||
-                (textOption.name == "The Stare" && starePresent) || beSpecial && (moduleNames.Contains("Countdown") || moduleNames.Contains("Cruel Countdown"))){
+        while (!isActive) { yield return true; }
+        if (moduleIds.Contains(textOption.module_id) || (beSpecial && (moduleIds.Contains("countdown") || moduleIds.Contains("cruelCountdown"))))
+        {
             buttons[1].OnInteract();
         }
         else

@@ -180,7 +180,7 @@ public class FlavorTextCruel : MonoBehaviour
     void OnPress(int pressedButton)
     {
         GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, buttons[pressedButton].transform);
-        GetComponent<KMSelectable>().AddInteractionPunch();
+        buttons[pressedButton].AddInteractionPunch();
 
         if (isActive)
         {
@@ -289,7 +289,6 @@ public class FlavorTextCruel : MonoBehaviour
         }
     }
 
-    // twitch plays
     #pragma warning disable 414
     private readonly string TwitchHelpMessage = @"!{0} position/pos/p 1234 [Presses the buttons from top to bottom] | !{0} label/lab/l 6805 [Presses the buttons labelled '6','8','0', then '5']";
     #pragma warning restore 414
@@ -316,7 +315,7 @@ public class FlavorTextCruel : MonoBehaviour
                 }
                 else
                 {
-                    yield return "sendtochaterror One or more of the specified positions '" + parameters[1] + "' are invalid!";
+                    yield return "sendtochaterror!f One or more of the specified positions '" + parameters[1] + "' are invalid!";
                 }
             }
             else if (parameters.Length == 1)
@@ -345,7 +344,7 @@ public class FlavorTextCruel : MonoBehaviour
                 }
                 else
                 {
-                    yield return "sendtochaterror One or more of the specified labels '" + parameters[1] + "' are invalid!";
+                    yield return "sendtochaterror!f One or more of the specified labels '" + parameters[1] + "' are invalid!";
                 }
             }
             else if (parameters.Length == 1)
@@ -358,7 +357,7 @@ public class FlavorTextCruel : MonoBehaviour
 
     IEnumerator TwitchHandleForcedSolve()
     {
-        while (!isActive) { yield return true; yield return new WaitForSeconds(0.1f); }
+        while (!isActive) { yield return true; }
         int start = stage;
         for (int i = start; i < maxStageAmount; i++)
         {
