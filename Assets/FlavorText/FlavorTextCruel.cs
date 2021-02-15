@@ -104,8 +104,13 @@ public class FlavorTextCruel : MonoBehaviour
                 moduleIds.Add(textOptions[i].steam_id);
             }
         }
-		
-        Debug.LogFormat("[Flavor Text EX #{0}] It said: {1}", _moduleId, textOption.text);
+        string modname = textOption.text;
+        if (textOption.module_id == "brainf")
+            modname = modname.Replace("\n", "");
+        else
+            modname = modname.Replace("\n", " ");
+
+        Debug.LogFormat("[Flavor Text EX #{0}] It said: {1}", _moduleId, modname);
         if (textOption.text == "And here's the Countdown clock...")
         {
             Debug.LogFormat("[Flavor Text EX #{0}] It's looking for (Cruel) Countdown.", _moduleId);

@@ -53,7 +53,12 @@ public class FlavorText : MonoBehaviour
         {
             Debug.LogFormat("[Flavor Text #{0}] It's looking for {1}.", _moduleId, textOption.name);
         }
-        Debug.LogFormat("[Flavor Text #{0}] It said: {1}", _moduleId, textOption.text);
+        string modname = textOption.text;
+        if (textOption.module_id == "brainf")
+            modname = modname.Replace("\n", "");
+        else
+            modname = modname.Replace("\n", " ");
+        Debug.LogFormat("[Flavor Text #{0}] It said: {1}", _moduleId, modname);
         if (moduleIds.Contains(textOption.module_id) || (beSpecial && (moduleIds.Contains("countdown") || moduleIds.Contains("cruelCountdown"))))
         {
             Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should...)", _moduleId);
