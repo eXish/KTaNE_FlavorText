@@ -1279,7 +1279,7 @@
   },
   {
     "name": "Etterna",
-    "steam_id": 2032943058,
+    "steam_id": 2416640196,
     "module_id": "etterna",
     "text": "Why does this version of \"Ideal Sync ogg\" require you to hit 96ths notes in time?"
   },
@@ -1507,7 +1507,7 @@
   },
   {
     "name": "Forget The Colors",
-    "steam_id": 2126185549,
+    "steam_id": 2416640196,
     "module_id": "ForgetTheColors",
     "text": "Since when was trigonometry relevant to colors?"
   },
@@ -2869,7 +2869,7 @@
   },
   {
     "name": "Placeholder Talk",
-    "steam_id": 2013982530,
+    "steam_id": 2416640196,
     "module_id": "placeholderTalk",
     "text": "60% of the time, this module reminds you of the game every time."
   },
@@ -3175,7 +3175,7 @@
   },
   {
     "name": "Role Reversal",
-    "steam_id": 2014025799,
+    "steam_id": 2416640196,
     "module_id": "roleReversal",
     "text": "Can this be even considered a manual?"
   },
@@ -3583,7 +3583,7 @@
   },
   {
     "name": "Sorting",
-    "steam_id": 2014027892,
+    "steam_id": 2416640196,
     "module_id": "sorting",
     "text": "What is the point of implementing a sorting algorithm if you are going to do it manually anyway?"
   },
@@ -4393,7 +4393,7 @@
   },
   {
     "name": "Lying Indicators",
-    "steam_id": 2059872002,
+    "steam_id": 2416640196,
     "module_id": "lyingIndicators",
     "text": "The sentence below is lying.\nThe sentence above is truthful."
   },
@@ -4435,7 +4435,7 @@
   },
   {
     "name": "Palindromes",
-    "steam_id": 2077052724,
+    "steam_id": 2416640196,
     "module_id": "palindromes",
     "text": "Is it crazy how saying sentences backwards creates backwards sentences saying how crazy it is?"
   },
@@ -4633,7 +4633,7 @@
   },
   {
     "name": "hexOS",
-    "steam_id": 2106930521,
+    "steam_id": 2416640196,
     "module_id": "hexOS",
     "text": "\"Hey, I didn't give you permission to use this technology!\"\n\"These guys stole the source code, and couldn't be bothered to put in a keypad?\""
   },
