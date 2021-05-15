@@ -96,6 +96,10 @@ public class FlavorTextCruel : MonoBehaviour
 
         textOption = textOptions[UnityEngine.Random.Range(0, textOptions.Count)];
         textDisplay.text = textOption.text;
+        if (textOption.module_id == "pixelcipher")
+            textDisplay.alignByGeometry = true;
+        else
+            textDisplay.alignByGeometry = false;
         moduleIds = new List<long>();
         for (int i = 0; i < textOptions.Count; i++)
         {

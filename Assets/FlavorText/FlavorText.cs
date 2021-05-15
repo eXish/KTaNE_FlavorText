@@ -26,6 +26,8 @@ public class FlavorText : MonoBehaviour
     FlavorTextOption textOption;
     bool isActive = false;
     bool beSpecial = false;
+    List<FlavorTextOption> choicesOn = new List<FlavorTextOption>();
+    List<FlavorTextOption> choicesOff = new List<FlavorTextOption>();
     List<string> moduleIds;
     static int _moduleIdCounter = 1;
     int _moduleId = 0;
@@ -35,6 +37,18 @@ public class FlavorText : MonoBehaviour
         _moduleId = _moduleIdCounter++;
         textOptions = JsonConvert.DeserializeObject<List<FlavorTextOption>>(flavorTextJson.text);
         moduleIds = bombInfo.GetModuleIDs();
+        if (Application.isEditor)
+        {
+            moduleIds.Add("FlavorText");
+            moduleIds.Add("FlavorTextCruel");
+        }
+        for (int i = 0; i < textOptions.Count; i++)
+        {
+            if (moduleIds.Contains(textOptions[i].module_id))
+                choicesOn.Add(textOptions[i]);
+            else
+                choicesOff.Add(textOptions[i]);
+        }
         GetComponent<KMBombModule>().OnActivate += OnActivate;
     }
 
@@ -43,7 +57,16 @@ public class FlavorText : MonoBehaviour
         isActive = true;
         Debug.LogFormat("[Flavor Text #{0}] It's on.", _moduleId);
         textOption = textOptions[UnityEngine.Random.Range(0, textOptions.Count)];
+        int choice = UnityEngine.Random.Range(0, 2);
+        if (choice == 0 || choicesOff.Count == 0)
+            textOption = choicesOn[UnityEngine.Random.Range(0, choicesOn.Count)];
+        else
+            textOption = choicesOff[UnityEngine.Random.Range(0, choicesOff.Count)];
         textDisplay.text = textOption.text;
+        if (textOption.module_id == "pixelcipher")
+            textDisplay.alignByGeometry = true;
+        else
+            textDisplay.alignByGeometry = false;
         if (textOption.text == "And here's the Countdown clock...")
         {
             beSpecial = true;
@@ -81,7 +104,16 @@ public class FlavorText : MonoBehaviour
         Debug.LogFormat("[Flavor Text #{0}] It's back on.", _moduleId);
         textOptions = JsonConvert.DeserializeObject<List<FlavorTextOption>>(flavorTextJson.text);
         textOption = textOptions[UnityEngine.Random.Range(0, textOptions.Count)];
+        int choice = UnityEngine.Random.Range(0, 2);
+        if (choice == 0 || choicesOff.Count == 0)
+            textOption = choicesOn[UnityEngine.Random.Range(0, choicesOn.Count)];
+        else
+            textOption = choicesOff[UnityEngine.Random.Range(0, choicesOff.Count)];
         textDisplay.text = textOption.text;
+        if (textOption.module_id == "pixelcipher")
+            textDisplay.alignByGeometry = true;
+        else
+            textDisplay.alignByGeometry = false;
         if (textOption.text == "And here's the Countdown clock...")
         {
             beSpecial = true;
@@ -91,7 +123,12 @@ public class FlavorText : MonoBehaviour
         {
             Debug.LogFormat("[Flavor Text #{0}] It's looking for {1}.", _moduleId, textOption.name);
         }
-        Debug.LogFormat("[Flavor Text #{0}] It said: {1}", _moduleId, textOption.text);
+        string modname = textOption.text;
+        if (textOption.module_id == "brainf")
+            modname = modname.Replace("\n", "");
+        else
+            modname = modname.Replace("\n", " ");
+        Debug.LogFormat("[Flavor Text #{0}] It said: {1}", _moduleId, modname);
         if (moduleIds.Contains(textOption.module_id) || (beSpecial && (moduleIds.Contains("countdown") || moduleIds.Contains("cruelCountdown"))))
         {
             Debug.LogFormat("[Flavor Text #{0}] Do you accept it? (You probably should...)", _moduleId);
