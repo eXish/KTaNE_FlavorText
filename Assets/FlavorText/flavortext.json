@@ -2898,6 +2898,12 @@
     "text": "I'd wash your hands after this one..."
   },
   {
+    "name": "The Plunger",
+    "steam_id": 2540466599,
+    "module_id": "needyPlunger",
+    "text": "Houston, we have an easy needy module."
+  },
+  {
     "name": "The Plunger Button",
     "steam_id": 1544816895,
     "module_id": "plungerButton",
@@ -4467,7 +4473,7 @@
     "name": "RPS Judging",
     "steam_id": 2048829561,
     "module_id": "RPSJudging",
-    "text": "Deciding everytime when they fight"
+    "text": "Deciding everytime when they fight."
   },
   {
     "name": "Shuffled Strings",
