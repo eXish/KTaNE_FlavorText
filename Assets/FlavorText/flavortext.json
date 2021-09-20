@@ -4362,12 +4362,6 @@
     "text": "To be or not to be."
   },
   {
-    "name": "Jukebox.WAV",
-    "steam_id": 2069762771,
-    "module_id": "JukeboxWAV",
-    "text": "Be the spectogram."
-  },
-  {
     "name": "Just Numbers",
     "steam_id": 2222549926,
     "module_id": "JustNumbersModule",
