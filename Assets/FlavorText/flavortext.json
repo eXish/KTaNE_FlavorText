@@ -493,7 +493,7 @@
   },
   {
     "name": "Boozleglyph Identification",
-    "steam_id": 1974393045,
+    "steam_id": 3007781813,
     "module_id": "boozleglyphIdentification",
     "text": "That's right I've been bamboozled, over and over again..."
   },
@@ -1849,7 +1849,7 @@
   },
   {
     "name": "Hyperneedy",
-    "steam_id": 1974393045,
+    "steam_id": 3007781813,
     "module_id": "hyperneedy",
     "text": "Well, it's two less dimensions to deal with, but the lines are still missing. Lovely."
   },
@@ -3090,9 +3090,9 @@
     "text": "Seeing red is the standard for this module."
   },
   {
-    "name": "Red Light Green Light",
-    "steam_id": 1974393045,
-    "module_id": "redLightGreenLight",
+    "name": "Patience",
+    "steam_id": 3007781813,
+    "module_id": "patience",
     "text": "One two freeze!"
   },
   {
@@ -3199,7 +3199,7 @@
   },
   {
     "name": "Rotating Squares",
-    "steam_id": 1974393045,
+    "steam_id": 3007781813,
     "module_id": "rotatingSquares",
     "text": "A good memory and a good sense of direction is all you need. Easy, right?"
   },
@@ -4753,7 +4753,7 @@
   },
   {
     "name": "Simon Stashes",
-    "steam_id": 1974393045,
+    "steam_id": 3007781813,
     "module_id": "simonStashes",
     "text": "I lived long enough to see myself become the villain."
   },
