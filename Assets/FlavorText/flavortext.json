@@ -4285,7 +4285,7 @@
   },
   {
     "name": "Arrow Talk",
-    "steam_id": 2267055569,
+    "steam_id": 3557177043,
     "module_id": "ArrowTalk",
     "text": "Points towards your doom."
   },
@@ -4297,7 +4297,7 @@
   },
   {
     "name": "BoozleTalk",
-    "steam_id": 2267055569,
+    "steam_id": 3557177043,
     "module_id": "BoozleTalk",
     "text": "No bamboozling will be allowed within the presence of this bomb."
   },
@@ -4321,7 +4321,7 @@
   },
   {
     "name": "Crazy Talk With A K",
-    "steam_id": 2267055569,
+    "steam_id": 3557177043,
     "module_id": "CrazyTalkWithAK",
     "text": "Text, when distorted properly, can only be read at certain angles. This module utilizes this fact."
   },
@@ -4357,7 +4357,7 @@
   },
   {
     "name": "Jaden Smith Talk",
-    "steam_id": 2267055569,
+    "steam_id": 3557177043,
     "module_id": "JadenSmithTalk",
     "text": "To be or not to be."
   },
@@ -4369,13 +4369,13 @@
   },
   {
     "name": "KayMazey Talk",
-    "steam_id": 2267055569,
+    "steam_id": 3557177043,
     "module_id": "KMazeyTalk",
     "text": "Lost, confused, and dazed; There is no way out of this tricky maze."
   },
   {
     "name": "Kilo Talk",
-    "steam_id": 2267055569,
+    "steam_id": 3557177043,
     "module_id": "KiloTalk",
     "text": "Perfectly balanced...as everything should be."
   },
@@ -4441,7 +4441,7 @@
   },
   {
     "name": "Quote Crazy Talk End Quote",
-    "steam_id": 2267055569,
+    "steam_id": 3557177043,
     "module_id": "QuoteCrazyTalkEndQuote",
     "text": "Time your strike."
   },
@@ -4477,7 +4477,7 @@
   },
   {
     "name": "Standard Crazy Talk",
-    "steam_id": 2267055569,
+    "steam_id": 3557177043,
     "module_id": "StandardCrazyTalk",
     "text": "Blue red blue yellow... wrong question."
   },
@@ -5031,7 +5031,7 @@
     "name": "Synesthesia",
     "steam_id": 2129404386,
     "module_id": "synesthesia",
-    "text": "You better not be colordeaf!"
+    "text": "You better not be colourdeaf!"
   },
   {
     "name": "The Calculator",
